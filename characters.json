@@ -1,0 +1,2252 @@
+[
+    {
+        "name": "Olivia Bates",
+        "interactionName": "Olivia",
+        "age": 16,
+        "gender": "Female",
+        "orientation": "Pansexual",
+        "creator": "Goob",
+        "imageURL": "https://i.imgur.com/Xff55DR.png",
+        "rare": false
+    },
+	{
+        "name": "Connor Wesley",
+        "interactionName": "Connor",
+        "age": 18,
+        "gender": "Male",
+        "orientation": "Straight",
+        "creator": "Goob",
+        "imageURL": "https://i.imgur.com/f1751kO.jpg",
+        "rare": false
+    },
+	{
+        "name": "Kieth Jones",
+        "interactionName": "Kieth",
+        "age": 17,
+        "gender": "Male",
+        "orientation": "Homosexual",
+        "creator": "Cassie",
+        "imageURL": "https://i.imgur.com/ud5ENUd.jpg",
+        "rare": false
+    },
+	{
+        "name": "Goob",
+        "interactionName": "Goob",
+        "age": 17,
+        "gender": "Male",
+        "orientation": "Straight",
+        "creator": "Goob",
+        "imageURL": "https://i.imgur.com/RJrjh3q.png",
+        "rare": false
+    },
+	{
+        "name": "AJ Lawson",
+        "interactionName": "AJ",
+        "age": 17,
+        "gender": "Female",
+        "orientation": "Lesbian",
+        "creator": "Violet",
+        "imageURL": "https://i.imgur.com/Pblhm4W.png",
+        "rare": false
+    },
+	{
+        "name": "Violet Lawson",
+        "interactionName": "Violet",
+        "age": 16,
+        "gender": "Female",
+        "orientation": "Bisexual",
+        "creator": "Violet",
+        "imageURL": "https://i.imgur.com/2Dx27as.png",
+        "rare": false
+    },
+	{
+        "name": "Cori Ruptin",
+        "interactionName": "Cori",
+        "age": 18,
+        "gender": "Female",
+        "orientation": "Lesbian",
+        "creator": "Violet",
+        "imageURL": "https://i.imgur.com/6tAQhCq.png",
+        "rare": false
+    },
+	{
+        "name": "Fall Glarix",
+        "interactionName": "Fall",
+        "age": 18,
+        "gender": "Female",
+        "orientation": "Straight",
+        "creator": "Violet",
+        "imageURL": "https://i.imgur.com/pJfFFHM.png",
+        "rare": false
+    },
+	{
+        "name": "J3n v.8",
+        "interactionName": "J3n",
+        "age": "???",
+        "gender": "Female",
+        "orientation": "???",
+        "creator": "Violet",
+        "imageURL": "https://i.imgur.com/uUJlj6S.png",
+        "rare": false
+    },
+	{
+        "name": "Lyra Eclipse",
+        "interactionName": "Lyra",
+        "age": 18,
+        "gender": "Female",
+        "orientation": "Bisexual",
+        "creator": "Violet",
+        "imageURL": "https://i.imgur.com/eRZoh5d.png",
+        "rare": false
+    },
+	{
+        "name": "Neoma Eclipse",
+        "interactionName": "Neoma",
+        "age": 18,
+        "gender": "Female",
+        "orientation": "Pansexual",
+        "creator": "Violet",
+        "imageURL": "https://i.imgur.com/b960E0N.png",
+        "rare": false
+    },
+	{
+        "name": "Blanc",
+        "interactionName": "Blanc",
+        "age": 18,
+        "gender": "Male",
+        "orientation": "Gay",
+        "creator": "Alyssa",
+        "imageURL": "https://i.imgur.com/zAJv0Pu.png",
+        "rare": false
+    },
+	{
+        "name": "Noir",
+        "interactionName": "Noir",
+        "age": 18,
+        "gender": "Male",
+        "orientation": "Bisexual",
+        "creator": "Alyssa",
+        "imageURL": "https://i.imgur.com/obqFTgR.png",
+        "rare": false
+    },
+	{
+        "name": "Caroline Marie Gethen",
+        "interactionName": "Caroline",
+        "age": 16,
+        "gender": "Female",
+        "orientation": "Pansexual",
+        "creator": "Alyssa",
+        "imageURL": "https://i.imgur.com/rZHcxzG.png",
+        "rare": false
+    },
+	{
+        "name": "Darrell James Woodson",
+        "interactionName": "Darrell",
+        "age": 14,
+        "gender": "Male",
+        "orientation": "Straight",
+        "creator": "Alyssa",
+        "imageURL": "https://i.imgur.com/ZBC1Jwx.png",
+        "rare": false
+    },
+	{
+        "name": "Katherine Robin James Dove",
+        "interactionName": "Katherine",
+        "age": 14,
+        "gender": "Female",
+        "orientation": "Bisexual",
+        "creator": "Alyssa",
+        "imageURL": "https://i.imgur.com/nfko3Zo.png",
+        "rare": false
+    },
+	{
+        "name": "Shae",
+        "interactionName": "Shae",
+        "age": 19,
+        "gender": "Male",
+        "orientation": "Asexual",
+        "creator": "Alyssa",
+        "imageURL": "https://i.imgur.com/SKkS0g5.png",
+        "rare": false
+    },
+	{
+        "name": "Kai Suzuki",
+        "interactionName": "Kai",
+        "age": 18,
+        "gender": "Female",
+        "orientation": "Bisexual",
+        "creator": "Peace",
+        "imageURL": "https://i.imgur.com/bPqo3g5.jpg",
+        "rare": false
+    },
+	{
+        "name": "Aurora Faye",
+        "interactionName": "Aurora",
+        "age": 17,
+        "gender": "Female",
+        "orientation": "Bisexual",
+        "creator": "Clarity",
+        "imageURL": "https://i.imgur.com/ETOOYIv.jpg",
+        "rare": false
+    },
+	{
+        "name": "Julian Winchester Lowell",
+        "interactionName": "Julian",
+        "age": 18,
+        "gender": "Male",
+        "orientation": "Homosexual",
+        "creator": "Clarity",
+        "imageURL": "https://i.imgur.com/lPEfGWl.png",
+        "rare": false
+    },
+	{
+        "name": "Lulu",
+        "interactionName": "Lulu",
+        "age": 19,
+        "gender": "Female",
+        "orientation": "Pansexual",
+        "creator": "Clarity",
+        "imageURL": "https://i.imgur.com/25lgiqZ.png",
+        "rare": false
+    },
+	{
+        "name": "Genevieve Winchester Lowell",
+        "interactionName": "Genevieve",
+        "age": 18,
+        "gender": "Female",
+        "orientation": "Homosexual",
+        "creator": "Clarity",
+        "imageURL": "https://i.imgur.com/X2nYsdo.png",
+        "rare": false
+    },
+	{
+        "name": "Tatsuya Yamazaki",
+        "interactionName": "Tatsuya",
+        "age": 19,
+        "gender": "Male",
+        "orientation": "Bi-Curious",
+        "creator": "Solar",
+        "imageURL": "https://i.imgur.com/ulncmeV.jpg",
+        "rare": false
+    },
+	{
+        "name": "Cain Dyson",
+        "interactionName": "Cain",
+        "age": 18,
+        "gender": "Male",
+        "orientation": "NOT FOR MIKA TO FUCK",
+        "creator": "Solar",
+        "imageURL": "https://i.imgur.com/YwKPyRM.jpg",
+        "rare": false
+    },
+	{
+        "name": "Sven Bones",
+        "interactionName": "Sven",
+        "age": 17,
+        "gender": "Male",
+        "orientation": "Homosexual",
+        "creator": "Solar",
+        "imageURL": "https://i.imgur.com/WjTufbh.jpg",
+        "rare": false
+    },
+	{
+        "name": "Hisaki Akamori",
+        "interactionName": "Hisaki",
+        "age": 17,
+        "gender": "Male",
+        "orientation": "Pansexual",
+        "creator": "Solar",
+        "imageURL": "https://i.imgur.com/pj1KqBd.png",
+        "rare": false
+    },
+	{
+        "name": "Kaede Nakahara",
+        "interactionName": "Kaede",
+        "age": 18,
+        "gender": "Male",
+        "orientation": "Demisexual",
+        "creator": "Solar",
+        "imageURL": "https://i.imgur.com/jvIX8Gn.jpg",
+        "rare": false
+    },
+	{
+        "name": "Ryo Shinkai",
+        "interactionName": "Ryo",
+        "age": 18,
+        "gender": "Male",
+        "orientation": "Pansexual",
+        "creator": "Solar",
+        "imageURL": "https://i.imgur.com/HFge2W1.jpg",
+        "rare": false
+    },
+	{
+        "name": "ANTIK",
+        "interactionName": "ANTIK",
+        "age": 18,
+        "gender": "Male",
+        "orientation": "???",
+        "creator": "Solar",
+        "imageURL": "https://i.imgur.com/KaKNYfG.gif",
+        "rare": false
+    },
+	{
+        "name": "Sora Takahashi",
+        "interactionName": "Sora",
+        "age": 17,
+        "gender": "Male",
+        "orientation": "Pansexual",
+        "creator": "Solar",
+        "imageURL": "https://i.imgur.com/mqYNrdt.jpg",
+        "rare": false
+    },
+	{
+        "name": "Oli",
+        "interactionName": "Oli",
+        "age": 17,
+        "gender": "wack",
+        "orientation": ";)",
+        "creator": "Oli",
+        "imageURL": "https://i.imgur.com/pR32Z4e.png",
+        "rare": false
+    },
+	{
+        "name": "Fenix Cambridge",
+        "interactionName": "Fenix",
+        "age": 18,
+        "gender": "Male",
+        "orientation": "Straight",
+        "creator": "Pap",
+        "imageURL": "https://i.imgur.com/uMP5hbj.jpg",
+        "rare": false
+    },
+	{
+        "name": "Vincent Lawson",
+        "interactionName": "Vince",
+        "age": 34,
+        "gender": "Male",
+        "orientation": "Straight",
+        "creator": "Violet",
+        "imageURL": "https://i.imgur.com/TOEC9ac.png",
+        "rare": false
+    },
+	{
+        "name": "Sebastian Baxley Howard",
+        "interactionName": "Seb",
+        "age": 19,
+        "gender": "Male",
+        "orientation": "Straight",
+        "creator": "Pap",
+        "imageURL": "https://i.imgur.com/UeRWmnz.png",
+        "rare": false
+    },
+	{
+        "name": "Ashton Auriel",
+        "interactionName": "Ashton",
+        "age": 2500,
+        "gender": "Male",
+        "orientation": "Straight",
+        "creator": "Pap",
+        "imageURL": "https://i.imgur.com/00GVqEc.jpg",
+        "rare": false
+    },
+	{
+        "name": "Milo Forest",
+        "interactionName": "Milo",
+        "age": 45,
+        "gender": "Male",
+        "orientation": "Pansexual",
+        "creator": "Mika",
+        "imageURL": "https://i.imgur.com/5zBwtgX.jpg",
+        "rare": false
+    },
+	{
+        "name": "Rhianna Peter",
+        "interactionName": "Rhi",
+        "age": 14,
+        "gender": "Female",
+        "orientation": "Bisexual",
+        "creator": "Rhi",
+        "imageURL": "https://i.imgur.com/GGfXPkF.png",
+        "rare": false
+    },
+	{
+        "name": "Ella Lynn Clark",
+        "interactionName": "Ella",
+        "age": 16,
+        "gender": "Female",
+        "orientation": "Straight",
+        "creator": "Rhi",
+        "imageURL": "https://i.imgur.com/VU5znSx.png",
+        "rare": false
+    },
+	{
+        "name": "Noah Mason Avalon",
+        "interactionName": "Noah",
+        "age": 18,
+        "gender": "Male",
+        "orientation": "Pansexual",
+        "creator": "Mika",
+        "imageURL": "https://i.imgur.com/YF96sJn.jpg",
+        "rare": false
+    },
+	{
+        "name": "Laurence Miller",
+        "interactionName": "Laurence",
+        "age": 18,
+        "gender": "Male",
+        "orientation": "Bisexual",
+        "creator": "Rhi",
+        "imageURL": "https://i.imgur.com/I4882aa.png",
+        "rare": false
+    },
+	{
+        "name": "Marcus Forest",
+        "interactionName": "Marcus",
+        "age": 41,
+        "gender": "Male",
+        "orientation": "Straight",
+        "creator": "Mika",
+        "imageURL": "https://i.imgur.com/RGSjUC1.png",
+        "rare": false
+    },
+	{
+        "name": "Vladimir Davenport",
+        "interactionName": "Vlad",
+        "age": 19,
+        "gender": "Male",
+        "orientation": "Closet Bisexual",
+        "creator": "Mika",
+        "imageURL": "https://i.imgur.com/C2O4qxR.jpg",
+        "rare": false
+    },
+	{
+        "name": "Dio Lawson",
+        "interactionName": "Dio",
+        "age": 65,
+        "gender": "Male",
+        "orientation": "Straight",
+        "creator": "Violet",
+        "imageURL": "https://i.imgur.com/oqlwJrD.png",
+        "rare": false
+    },
+	{
+        "name": "Dinky",
+        "interactionName": "Dinky",
+        "age": 17,
+        "gender": "Non-Binary",
+        "orientation": "They Really Don't Care",
+        "creator": "Bubbie",
+        "imageURL": "https://i.imgur.com/jUFf23L.png",
+        "rare": false
+    },
+	{
+        "name": "Mars Clarson",
+        "interactionName": "Mars",
+        "age": 18,
+        "gender": "Female",
+        "orientation": "Bisexual",
+        "creator": "Bubbie",
+        "imageURL": "https://i.imgur.com/knH09tX.png",
+        "rare": false
+    },
+	{
+        "name": "Sonnet Stardust",
+        "interactionName": "Sonnet",
+        "age": 18,
+        "gender": "Female",
+        "orientation": "Pansexual",
+        "creator": "Mika",
+        "imageURL": "https://i.imgur.com/n9U2J23.png",
+        "rare": false
+    },
+	{
+        "name": "Bobby Aligator",
+        "interactionName": "Bobby",
+        "age": 17,
+        "gender": "Female",
+        "orientation": "Straight",
+        "creator": "Bubbie",
+        "imageURL": "https://i.imgur.com/tOwK5lO.png",
+        "rare": false
+    },
+	{
+        "name": "Nikolai Forest",
+        "interactionName": "Nikolai",
+        "age": 20,
+        "gender": "Male",
+        "orientation": "Pansexual",
+        "creator": "Mika",
+        "imageURL": "https://i.imgur.com/t90KZl3.png",
+        "rare": false
+    },
+	{
+        "name": "Carolina Forest",
+        "interactionName": "Carolina",
+        "age": 20,
+        "gender": "Female",
+        "orientation": "Asexual",
+        "creator": "Mika",
+        "imageURL": "https://i.imgur.com/cXWZ4dP.jpg",
+        "rare": false
+    },
+	{
+        "name": "Margot Roux",
+        "interactionName": "Margot",
+        "age": 18,
+        "gender": "Female",
+        "orientation": ":thinking:",
+        "creator": "Moose",
+        "imageURL": "https://i.imgur.com/x8rfw58.png",
+        "rare": false
+    },
+	{
+        "name": "Blythe Ivalyn",
+        "interactionName": "Blythe",
+        "age": 16,
+        "gender": "Female",
+        "orientation": "Asexual",
+        "creator": "Moose",
+        "imageURL": "https://i.imgur.com/ENolgV2.png",
+        "rare": false
+    },
+	{
+        "name": "Valentine Lawson",
+        "interactionName": "Valentine",
+        "age": 60,
+        "gender": "Female",
+        "orientation": "Straight",
+        "creator": "Violet",
+        "imageURL": "https://i.imgur.com/GmW3v0u.png",
+        "rare": false
+    },
+	{
+        "name": "Avery Yumino",
+        "interactionName": "Avery",
+        "age": 17,
+        "gender": "Female",
+        "orientation": "Asexual",
+        "creator": "Bubbie",
+        "imageURL": "https://i.imgur.com/4ZamNq1.png",
+        "rare": false
+    },
+	{
+        "name": "Emil Erikson",
+        "interactionName": "Emil",
+        "age": 17,
+        "gender": "Male",
+        "orientation": "Straight",
+        "creator": "Moose",
+        "imageURL": "https://i.imgur.com/ochVnOB.png",
+        "rare": false
+    },
+	{
+        "name": "Amethyst Lamb",
+        "interactionName": "Amethyst",
+        "age": 20,
+        "gender": "Female",
+        "orientation": "Pansexual",
+        "creator": "Violet",
+        "imageURL": "https://i.imgur.com/YmL1IcS.jpg",
+        "rare": false
+    },
+	{
+        "name": "Katherine Yumino",
+        "interactionName": "Katherine",
+        "age": 19,
+        "gender": "Female",
+        "orientation": "Bisexual",
+        "creator": "Bubbie",
+        "imageURL": "https://i.imgur.com/P93Ny4z.png",
+        "rare": false
+    },
+	{
+        "name": "Robert Auriel",
+        "interactionName": "Robert",
+        "age": 42,
+        "gender": "Male",
+        "orientation": "Angel-Sexual",
+        "creator": "Pap",
+        "imageURL": "https://i.imgur.com/5GGRuHw.jpg",
+        "rare": false
+    },
+	{
+        "name": "Hoodie Gremlin",
+        "interactionName": "Hoodie Gremlin",
+        "age": 1000000,
+        "gender": "???",
+        "orientation": "Hoodie Gremlin loves **No One**",
+        "creator": "Moose",
+        "imageURL": "https://i.imgur.com/3yP5zjj.png",
+        "rare": true
+    },
+	{
+        "name": "Charlotte Smitchz",
+        "interactionName": "Charlotte",
+        "age": 17,
+        "gender": "Female",
+        "orientation": "Pansexual",
+        "creator": "Rhi",
+        "imageURL": "https://i.imgur.com/3ZDG3c4.png",
+        "rare": false
+    },
+	{
+        "name": "Caleb Wilbur Webster",
+        "interactionName": "Caleb",
+        "age": 17,
+        "gender": "Male",
+        "orientation": "Straight",
+        "creator": "Bubbie",
+        "imageURL": "https://i.imgur.com/1R1hmVb.jpg",
+        "rare": false
+    },
+	{
+        "name": "Dolce Pianiss",
+        "interactionName": "Dolce",
+        "age": 20,
+        "gender": "Male",
+        "orientation": "Music-Sexual",
+        "creator": "Bubbie",
+        "imageURL": "https://i.imgur.com/OIvxUmR.png",
+        "rare": false
+    },
+	{
+        "name": "Mitchell Flynn Baker",
+        "interactionName": "Mitchell",
+        "age": 18,
+        "gender": "Male",
+        "orientation": "Bisexual",
+        "creator": "Bubbie",
+        "imageURL": "https://i.imgur.com/be2KPGI.gif",
+        "rare": false
+    },
+	{
+        "name": "Asher",
+        "interactionName": "Asher",
+        "age": 17,
+        "gender": "Plant Corpse",
+        "orientation": "Literal Dead Man",
+        "creator": "Violet",
+        "imageURL": "https://i.imgur.com/uLFvl4K.png",
+        "rare": false
+    },
+	{
+        "name": "Sydney Washington",
+        "interactionName": "Sydney",
+        "age": 16,
+        "gender": "Female",
+        "orientation": "Homosexual",
+        "creator": "Bubbie",
+        "imageURL": "https://i.imgur.com/zMknlex.png",
+        "rare": false
+    },
+	{
+        "name": "Athena Tinn",
+        "interactionName": "Athena",
+        "age": 36,
+        "gender": "Female",
+        "orientation": "Straight",
+        "creator": "Violet",
+        "imageURL": "https://i.imgur.com/6WMMWPD.png",
+        "rare": false
+    },
+	{
+        "name": "Cindy Lee",
+        "interactionName": "Cindy",
+        "age": 21,
+        "gender": "Female",
+        "orientation": "Pansexual",
+        "creator": "Violet",
+        "imageURL": "https://i.imgur.com/S0WQNtN.png",
+        "rare": false
+    },
+	{
+        "name": "Scotty Van Martin",
+        "interactionName": "Scotty",
+        "age": 19,
+        "gender": "Male",
+        "orientation": "Pansexual",
+        "creator": "Bubbie",
+        "imageURL": "https://i.imgur.com/IHrBTse.png",
+        "rare": false
+    },
+	{
+        "name": "Dai Lee",
+        "interactionName": "Dai Lee",
+        "age": 25,
+        "gender": "Female",
+        "orientation": "loves everyone honestly",
+        "creator": "Violet",
+        "imageURL": "https://i.imgur.com/lboNeJm.png",
+        "rare": false
+    },
+	{
+        "name": "Danny Loring",
+        "interactionName": "Danny",
+        "age": 18,
+        "gender": "Male",
+        "orientation": "who fucking knows honestly",
+        "creator": "Violet",
+        "imageURL": "https://i.imgur.com/qQwV279.jpg",
+        "rare": false
+    },
+	{
+        "name": "David",
+        "interactionName": "David",
+        "age": 23,
+        "gender": "Male",
+        "orientation": "Straight",
+        "creator": "Violet",
+        "imageURL": "https://i.imgur.com/ujHcAOQ.png",
+        "rare": false
+    },
+	{
+        "name": "Periwinkle Markland",
+        "interactionName": "Periwinkle",
+        "age": 16,
+        "gender": "Female",
+        "orientation": "Straight",
+        "creator": "Bubbie",
+        "imageURL": "https://i.imgur.com/Gt4BYNK.png",
+        "rare": false
+    },
+	{
+        "name": "Delilah Xavi",
+        "interactionName": "Delilah",
+        "age": 17,
+        "gender": "Female",
+        "orientation": "Pansexual",
+        "creator": "Violet",
+        "imageURL": "https://i.imgur.com/t8Sh98U.png",
+        "rare": false
+    },
+	{
+        "name": "Evelyn Ruptin",
+        "interactionName": "Evelyn",
+        "age": 40,
+        "gender": "Female",
+        "orientation": "Straight",
+        "creator": "Violet",
+        "imageURL": "https://i.imgur.com/4aQQ426.jpg",
+        "rare": false
+    },
+	{
+        "name": "Lotus Maria Avalon",
+        "interactionName": "Lotus",
+        "age": 40,
+        "gender": "Female",
+        "orientation": "Straight",
+        "creator": "Mika",
+        "imageURL": "https://i.imgur.com/uwOZZT7.png",
+        "rare": false
+    },
+	{
+        "name": "Fefie",
+        "interactionName": "Fefie",
+        "age": 17,
+        "gender": "Male",
+        "orientation": "Pansexual",
+        "creator": "Violet",
+        "imageURL": "https://i.imgur.com/AR8dXos.png",
+        "rare": false
+    },
+	{
+        "name": "Flint Rodriguez",
+        "interactionName": "Flint",
+        "age": 22,
+        "gender": "Male",
+        "orientation": "if you cute he'll hit you up",
+        "creator": "Violet",
+        "imageURL": "https://i.imgur.com/COVcvj0.png",
+        "rare": false
+    },
+	{
+        "name": "Gina Auriel",
+        "interactionName": "Gina",
+        "age": 6000,
+        "gender": "Female",
+        "orientation": "Straight",
+        "creator": "Violet",
+        "imageURL": "https://i.imgur.com/yHSvRkn.jpg",
+        "rare": false
+    },
+	{
+        "name": "Heejin Kim",
+        "interactionName": "Heejin",
+        "age": 17,
+        "gender": "Female",
+        "orientation": "???",
+        "creator": "Violet",
+        "imageURL": "https://i.imgur.com/QTjSUaU.png",
+        "rare": false
+    },
+	{
+        "name": "Gooey",
+        "interactionName": "Gooey",
+        "age": 18,
+        "gender": "Male",
+        "orientation": "Straight",
+        "creator": "Silly",
+        "imageURL": "https://i.imgur.com/6lSehKz.png",
+        "rare": false
+    },
+	{
+        "name": "Francette Morgana",
+        "interactionName": "Francette",
+        "age": 17,
+        "gender": "Female",
+        "orientation": "Bisexual",
+        "creator": "Bubbie",
+        "imageURL": "https://i.imgur.com/W18JnYx.png",
+        "rare": false
+    },
+	{
+        "name": "Damien Nash",
+        "interactionName": "Damien",
+        "age": 18,
+        "gender": "Male",
+        "orientation": "Straight",
+        "creator": "Silly",
+        "imageURL": "https://i.imgur.com/JYzy6wo.png",
+        "rare": false
+    },
+	{
+        "name": "Flynn Brennan",
+        "interactionName": "Flynn",
+        "age": 21,
+        "gender": "Male",
+        "orientation": "Homosexual",
+        "creator": "Silly",
+        "imageURL": "https://i.imgur.com/D7W0DFH.png",
+        "rare": false
+    },
+	{
+        "name": "Everett Clarke",
+        "interactionName": "Everett",
+        "age": 19,
+        "gender": "Male",
+        "orientation": "Straight",
+        "creator": "Silly",
+        "imageURL": "https://i.imgur.com/cao0Geu.png",
+        "rare": false
+    },
+	{
+        "name": "Octavian Nathaniel Avalon",
+        "interactionName": "Octavian",
+        "age": 17,
+        "gender": "Male",
+        "orientation": "Straight",
+        "creator": "Mika",
+        "imageURL": "https://i.imgur.com/2GrF7Z4.png",
+        "rare": false
+    },
+	{
+        "name": "Hunter Antherman",
+        "interactionName": "Hunter",
+        "age": 19,
+        "gender": "Male",
+        "orientation": "Bisexual",
+        "creator": "Violet",
+        "imageURL": "https://i.imgur.com/0rCcbsa.png",
+        "rare": false
+    },
+	{
+        "name": "Emilio Alfonsi",
+        "interactionName": "Emilio",
+        "age": 17,
+        "gender": "Male",
+        "orientation": "Straight",
+        "creator": "Silly",
+        "imageURL": "https://i.imgur.com/2n1JWwg.png",
+        "rare": false
+    },
+	{
+        "name": "Damien Forest",
+        "interactionName": "Damien",
+        "age": 18,
+        "gender": "Male",
+        "orientation": "Robotfucker",
+        "creator": "Mika",
+        "imageURL": "https://i.imgur.com/JYsRjcb.png",
+        "rare": false
+    },
+	{
+        "name": "Max Zumberman",
+        "interactionName": "Max",
+        "age": 16,
+        "gender": "Male",
+        "orientation": "Homosexual",
+        "creator": "Bubbie",
+        "imageURL": "https://i.imgur.com/YO5ZEER.png",
+        "rare": false
+    },
+	{
+        "name": "Garrett",
+        "interactionName": "Garrett",
+        "age": 17,
+        "gender": "Panda.",
+        "orientation": "Panda.",
+        "creator": "Pap",
+        "imageURL": "https://i.imgur.com/gC8Nm1V.png",
+        "rare": false
+    },
+	{
+        "name": "Jack Glarix",
+        "interactionName": "Jack",
+        "age": 19,
+        "gender": "Male",
+        "orientation": "Pansexual",
+        "creator": "Violet",
+        "imageURL": "https://i.imgur.com/mGXDhuy.png",
+        "rare": false
+    },
+	{
+        "name": "Amelia Isabel Grace Rosenburg",
+        "interactionName": "Amelia",
+        "age": 16,
+        "gender": "Female",
+        "orientation": "Straight",
+        "creator": "Bubbie",
+        "imageURL": "https://i.imgur.com/FwhRdwD.png",
+        "rare": false
+    },
+	{
+        "name": "Phyro Syrin",
+        "interactionName": "Phyro",
+        "age": 18,
+        "gender": "Male",
+        "orientation": "Closet Bisexual",
+        "creator": "Alex",
+        "imageURL": "https://i.imgur.com/iEjm0pQ.png",
+        "rare": false
+    },
+	{
+        "name": "Ryan Aberforth",
+        "interactionName": "Ryan",
+        "age": 15,
+        "gender": "Female",
+        "orientation": "???",
+        "creator": "Alex",
+        "imageURL": "https://i.imgur.com/NJboP66.png",
+        "rare": false
+    },
+	{
+        "name": "Penelope Pyong",
+        "interactionName": "Penelope",
+        "age": 16,
+        "gender": "Female",
+        "orientation": "???",
+        "creator": "Alex",
+        "imageURL": "https://i.imgur.com/D9hzsKR.jpg",
+        "rare": false
+    },
+	{
+        "name": "Jane Aberforth",
+        "interactionName": "Jane",
+        "age": 18,
+        "gender": "Female",
+        "orientation": "Straight",
+        "creator": "Alex",
+        "imageURL": "https://i.imgur.com/9DwfIgo.png",
+        "rare": false
+    },
+	{
+        "name": "Augustus Ace Sinclair",
+        "interactionName": "Augustus",
+        "age": 15,
+        "gender": "Male",
+        "orientation": "???",
+        "creator": "Alex",
+        "imageURL": "https://i.imgur.com/vCojDGR.png",
+        "rare": false
+    },
+	{
+        "name": "Alex Noodles",
+        "interactionName": "FanArtAlex",
+        "age": 14,
+        "gender": "Male",
+        "orientation": "Straight",
+        "creator": "Alex",
+        "imageURL": "https://i.imgur.com/f9rmU4q.jpg",
+        "rare": false
+    },
+	{
+        "name": "Haru Akihiko",
+        "interactionName": "Haru",
+        "age": 16,
+        "gender": "Female",
+        "orientation": "Bisexual",
+        "creator": "Alex",
+        "imageURL": "https://i.imgur.com/iA2poxM.jpg",
+        "rare": false
+    },
+	{
+        "name": "Kade Michaels Amaryllis",
+        "interactionName": "Kade",
+        "age": 18,
+        "gender": "Male",
+        "orientation": "Straight",
+        "creator": "Mika",
+        "imageURL": "https://i.imgur.com/iAJlJSU.jpg",
+        "rare": false
+    },
+	{
+        "name": "Richard Flemington",
+        "interactionName": "Richard",
+        "age": 17,
+        "gender": "Male",
+        "orientation": "Homosexual",
+        "creator": "Bubbie",
+        "imageURL": "https://i.imgur.com/4Y97mH5.png",
+        "rare": false
+    },
+	{
+        "name": "Luna Amethyst",
+        "interactionName": "Luna",
+        "age": 17,
+        "gender": "Female",
+        "orientation": "Asexual",
+        "creator": "Mika",
+        "imageURL": "https://i.imgur.com/XfDZ2H6.png",
+        "rare": false
+    },
+	{
+        "name": "Tatiana Chiara Gambino",
+        "interactionName": "Tatiana",
+        "age": 18,
+        "gender": "Female",
+        "orientation": "???",
+        "creator": "Rhi",
+        "imageURL": "https://i.imgur.com/H69nEoT.png",
+        "rare": false
+    },
+	{
+        "name": "Lee",
+        "interactionName": "Lee",
+        "age": 18,
+        "gender": "Male",
+        "orientation": "Pansexual",
+        "creator": "Oli",
+        "imageURL": "https://i.imgur.com/cF7knET.png",
+        "rare": false
+    },
+	{
+        "name": "Luciel Takashi",
+        "interactionName": "Luciel",
+        "age": 18,
+        "gender": "Male",
+        "orientation": "Bisexual",
+        "creator": "Violet",
+        "imageURL": "https://i.imgur.com/zSb1Rff.png",
+        "rare": false
+    },
+	{
+        "name": "V.E.R.E.",
+        "interactionName": "V.E.R.E.",
+        "age": "???",
+        "gender": "Male",
+        "orientation": "???",
+        "creator": "Mika",
+        "imageURL": "https://i.imgur.com/1mL1LDv.jpg",
+        "rare": false
+    },
+	{
+        "name": "Morgan Blanc",
+        "interactionName": "Morgan",
+        "age": 17,
+        "gender": "Male",
+        "orientation": "Bisexual",
+        "creator": "Violet",
+        "imageURL": "https://i.imgur.com/dyPqHAR.jpg",
+        "rare": false
+    },
+	{
+        "name": "Jacky Lee",
+        "interactionName": "Jacky",
+        "age": 19,
+        "gender": "Female",
+        "orientation": "Pansexual",
+        "creator": "Violet",
+        "imageURL": "https://i.imgur.com/PBCVXSn.jpg",
+        "rare": false
+    },
+	{
+        "name": "Vivian Blackwood",
+        "interactionName": "Vivian",
+        "age": 23,
+        "gender": "Female",
+        "orientation": "???",
+        "creator": "Violet",
+        "imageURL": "https://i.imgur.com/GYTRybf.png",
+        "rare": false
+    },
+	{
+        "name": "Kitten Doodles",
+        "interactionName": "Kitten",
+        "age": 16,
+        "gender": "Beta Female",
+        "orientation": "Furry-Sexual",
+        "creator": "Kitten",
+        "imageURL": "https://i.imgur.com/sjGuslG.png",
+        "rare": false
+    },
+	{
+        "name": "Sorne",
+        "interactionName": "Sorne",
+        "age": 23,
+        "gender": "Female",
+        "orientation": "Pansexual",
+        "creator": "Kitten",
+        "imageURL": "https://i.imgur.com/OqpjBwg.png",
+        "rare": false
+    },
+	{
+        "name": "Vivian Rose Blackwood",
+        "interactionName": "Vivian Rose",
+        "age": 23,
+        "gender": "Female",
+        "orientation": "???",
+        "creator": "Violet",
+        "imageURL": "https://i.imgur.com/QckwxuI.png",
+        "rare": false
+    },
+	{
+        "name": "Eliza Belrose",
+        "interactionName": "Eliza",
+        "age": 18,
+        "gender": "Female",
+        "orientation": "Pansexual",
+        "creator": "Kitten",
+        "imageURL": "https://i.imgur.com/DDWFXny.png",
+        "rare": false
+    },
+	{
+        "name": "Ben Flemington",
+        "interactionName": "Ben",
+        "age": 41,
+        "gender": "Male",
+        "orientation": "Straight",
+        "creator": "Bubbie",
+        "imageURL": "https://i.imgur.com/M0A8pf1.png",
+        "rare": false
+    },
+	{
+        "name": "Brittneyann Keys",
+        "interactionName": "Brittneyann",
+        "age": 39,
+        "gender": "Female",
+        "orientation": "Thot",
+        "creator": "Bubbie",
+        "imageURL": "https://i.imgur.com/2v8agTF.png",
+        "rare": false
+    },
+	{
+        "name": "Smiles Christine",
+        "interactionName": "Smiles",
+        "age": 19,
+        "gender": "Female",
+        "orientation": "Straight",
+        "creator": "Violet",
+        "imageURL": "https://i.imgur.com/xYSvvXv.png",
+        "rare": false
+    },
+	{
+        "name": "Verona",
+        "interactionName": "Verona",
+        "age": 21,
+        "gender": "Female",
+        "orientation": "Straight",
+        "creator": "Violet",
+        "imageURL": "https://i.imgur.com/oMN76MF.png",
+        "rare": false
+    },
+	{
+        "name": "Westley De La Cruz",
+        "interactionName": "Westley",
+        "age": 16,
+        "gender": "Male",
+        "orientation": "Homosexual",
+        "creator": "Bubbie",
+        "imageURL": "https://i.imgur.com/7qr8ybI.png",
+        "rare": false
+    },
+	{
+        "name": "Hikaru Akuma",
+        "interactionName": "Hikaru",
+        "age": 18,
+        "gender": "Male",
+        "orientation": "Pansexual",
+        "creator": "Mika",
+        "imageURL": "https://i.imgur.com/Rfccpou.png",
+        "rare": false
+    },
+	{
+        "name": "Tysei",
+        "interactionName": "Tysei",
+        "age": 20,
+        "gender": "Female",
+        "orientation": "Pansexual",
+        "creator": "Cassie",
+        "imageURL": "https://i.imgur.com/dsEj9XE.jpg",
+        "rare": false
+    },
+	{
+        "name": "Naar",
+        "interactionName": "Naar",
+        "age": 17,
+        "gender": "Female",
+        "orientation": "???",
+        "creator": "Cassie",
+        "imageURL": "https://i.imgur.com/cZ23IpO.png",
+        "rare": false
+    },
+	{
+        "name": "Nina Volkov",
+        "interactionName": "Nina",
+        "age": 17,
+        "gender": "Female",
+        "orientation": "Bisexual",
+        "creator": "Cassie",
+        "imageURL": "https://i.imgur.com/5XWiPgw.png",
+        "rare": false
+    },
+	{
+        "name": "Dolly",
+        "interactionName": "Dolly",
+        "age": 12,
+        "gender": "Female",
+        "orientation": "A literal child's soul in a doll's body",
+        "creator": "Cassie",
+        "imageURL": "https://i.imgur.com/Fzw0pXh.png",
+        "rare": false
+    },
+	{
+        "name": "Kath Xie",
+        "interactionName": "Kath",
+        "age": 19,
+        "gender": "Male",
+        "orientation": "Straight",
+        "creator": "Cassie",
+        "imageURL": "https://i.imgur.com/vbXf0iP.png",
+        "rare": false
+    },
+	{
+        "name": "Megan",
+        "interactionName": "Megan",
+        "age": 18,
+        "gender": "Female",
+        "orientation": "Pansexual",
+        "creator": "Cassie",
+        "imageURL": "https://i.imgur.com/DtcTlMo.png",
+        "rare": false
+    },
+	{
+        "name": "Jonas",
+        "interactionName": "Jonas",
+        "age": 18,
+        "gender": "Male",
+        "orientation": "???",
+        "creator": "Cassie",
+        "imageURL": "https://i.imgur.com/LPTHE8F.png",
+        "rare": false
+    },
+	{
+        "name": "Krez",
+        "interactionName": "Krez",
+        "age": 19,
+        "gender": "Male",
+        "orientation": "???",
+        "creator": "Cassie",
+        "imageURL": "https://i.imgur.com/j7K0CWx.png",
+        "rare": false
+    },
+	{
+        "name": "Leona",
+        "interactionName": "Leona",
+        "age": 18,
+        "gender": "Female",
+        "orientation": "???",
+        "creator": "Cassie",
+        "imageURL": "https://i.imgur.com/MMGIfdd.png",
+        "rare": false
+    },
+	{
+        "name": "Rey",
+        "interactionName": "Rey",
+        "age": 18,
+        "gender": "Male",
+        "orientation": "Who the fuck knows",
+        "creator": "Cassie",
+        "imageURL": "https://i.imgur.com/L090azy.png",
+        "rare": false
+    },
+	{
+        "name": "Nathan Webb",
+        "interactionName": "Nathan",
+        "age": 39,
+        "gender": "Male",
+        "orientation": "Pansexual",
+        "creator": "Cassie",
+        "imageURL": "https://i.imgur.com/kni0gUZ.png",
+        "rare": false
+    },
+	{
+        "name": "Cassie",
+        "interactionName": "Cas",
+        "age": 16,
+        "gender": "Female",
+        "orientation": "Lesbian",
+        "creator": "Cassie",
+        "imageURL": "https://i.imgur.com/jd4yrq3.png",
+        "rare": false
+    },
+	{
+        "name": "Poli",
+        "interactionName": "Poli",
+        "age": 19,
+        "gender": "Male",
+        "orientation": "Pansexual",
+        "creator": "Cassie",
+        "imageURL": "https://i.imgur.com/tX58j6c.png",
+        "rare": false
+    },
+	{
+        "name": "Magie",
+        "interactionName": "Magie",
+        "age": 30,
+        "gender": "Female",
+        "orientation": "Straight",
+        "creator": "Cassie",
+        "imageURL": "https://i.imgur.com/RCnH3OX.png",
+        "rare": false
+    },
+	{
+        "name": "Bonnie",
+        "interactionName": "Bonnie",
+        "age": 17,
+        "gender": "Male",
+        "orientation": "Homosexual",
+        "creator": "Cassie",
+        "imageURL": "https://i.imgur.com/OrIT1Ih.png",
+        "rare": true
+    },
+	{
+        "name": "Jay Henson",
+        "interactionName": "Jay",
+        "age": 18,
+        "gender": "Male",
+        "orientation": "Bisexual",
+        "creator": "Cassie",
+        "imageURL": "https://i.imgur.com/OqTLDSM.jpg",
+        "rare": false
+    },
+	{
+        "name": "Aidan",
+        "interactionName": "Aidan",
+        "age": 18,
+        "gender": "Male",
+        "orientation": "Pansexual",
+        "creator": "Cassie",
+        "imageURL": "https://i.imgur.com/MaZIE2Y.jpg",
+        "rare": false
+    },
+	{
+        "name": "Feu Foxy",
+        "interactionName": "Feu",
+        "age": 21,
+        "gender": "Female",
+        "orientation": "Pansexual",
+        "creator": "Pap",
+        "imageURL": "https://i.imgur.com/UzYkmox.png",
+        "rare": false
+    },
+	{
+        "name": "Steven Xur Kalindros",
+        "interactionName": "Xur",
+        "age": 145,
+        "gender": "Bird",
+        "orientation": "Bird",
+        "creator": "Pap",
+        "imageURL": "https://i.imgur.com/cByi98d.jpg",
+        "rare": false
+    },
+	{
+        "name": "Furry Oli",
+        "interactionName": "Furry Oli",
+        "age": 17,
+        "gender": "Female",
+        "orientation": "Straight",
+        "creator": "Oli",
+        "imageURL": "https://i.imgur.com/2ZMteAf.png",
+        "rare": true
+    },
+	{
+        "name": "SMAU",
+        "interactionName": "SMAU",
+        "age": 69,
+        "gender": "Male",
+        "orientation": "Homosexual",
+        "creator": "Smau",
+        "imageURL": "https://i.imgur.com/v4HIxf5.jpg",
+        "rare": true
+    },
+	{
+        "name": "Kouhaililac",
+        "interactionName": "Kouhaililac",
+        "age": 18,
+        "gender": "Female",
+        "orientation": "mac n cheese sexual",
+        "creator": "Violet",
+        "imageURL": "https://i.imgur.com/039arH7.png",
+        "rare": true
+    },
+	{
+        "name": "The Chad",
+        "interactionName": "The Chad",
+        "age": 18,
+        "gender": "Alpha Male",
+        "orientation": "Straight",
+        "creator": "Goob",
+        "imageURL": "https://i.imgur.com/vupft85.png",
+        "rare": true
+    },
+	{
+        "name": "Emoji Ashton",
+        "interactionName": "Emoji Ashton",
+        "age": 100000000,
+        "gender": "Emoji",
+        "orientation": "Emoji-Sexual",
+        "creator": "Pap",
+        "imageURL": "https://i.imgur.com/DVpTCBS.jpg",
+        "rare": true
+    },
+	{
+        "name": "Adi",
+        "interactionName": "Adi",
+        "age": 16,
+        "gender": "Non-Binary",
+        "orientation": "they love no one except for BIRDS",
+        "creator": "Moose",
+        "imageURL": "https://i.imgur.com/BDgDkdo.png",
+        "rare": false
+    },
+	{
+        "name": "Tobias Malkovitch",
+        "interactionName": "Tobias",
+        "age": 18,
+        "gender": "Male",
+        "orientation": "Homosexual",
+        "creator": "Moose",
+        "imageURL": "https://i.imgur.com/hErgIiz.png",
+        "rare": false
+    },
+	{
+        "name": "Cleo De La Rosa",
+        "interactionName": "Cleo",
+        "age": 17,
+        "gender": "Female",
+        "orientation": "Pansexual",
+        "creator": "Moose",
+        "imageURL": "https://i.imgur.com/JvAnAXN.png",
+        "rare": false
+    },
+	{
+        "name": "Guo Jian",
+        "interactionName": "Jian",
+        "age": 15,
+        "gender": "Male",
+        "orientation": "he is babie",
+        "creator": "Moose",
+        "imageURL": "https://i.imgur.com/ak16931.png",
+        "rare": false
+    },
+	{
+        "name": "Moose",
+        "interactionName": "Moose",
+        "age": 16,
+        "gender": "Female",
+        "orientation": "Asexual",
+        "creator": "Moose",
+        "imageURL": "https://i.imgur.com/huqFszl.png",
+        "rare": false
+    },
+	{
+        "name": "Akuma Bridget",
+        "interactionName": "Bridget",
+        "age": 16,
+        "gender": "Female",
+        "orientation": "Straight",
+        "creator": "Rhi",
+        "imageURL": "https://i.imgur.com/6wDDTl3.jpg",
+        "rare": false
+    },
+	{
+        "name": "Jenny",
+        "interactionName": "Jenny",
+        "age": 15,
+        "gender": "Female",
+        "orientation": "Nobody Knows",
+        "creator": "Froggie",
+        "imageURL": "https://i.imgur.com/lb9Sv4W.jpg",
+        "rare": false
+    },
+	{
+        "name": "Tsundere Rhianna",
+        "interactionName": "Tsunderhi",
+        "age": 14,
+        "gender": "Female",
+        "orientation": "Bisexual",
+        "creator": "Rhi",
+        "imageURL": "https://i.imgur.com/eeABSVk.jpg",
+        "rare": false
+    },
+	{
+        "name": "Charlie",
+        "interactionName": "Charlie",
+        "age": 18,
+        "gender": "Female",
+        "orientation": "Pansexual",
+        "creator": "Pepper",
+        "imageURL": "https://i.imgur.com/io8gHkh.png",
+        "rare": true
+    },
+	{
+        "name": "Ryder Sheikh",
+        "interactionName": "Ryder",
+        "age": 18,
+        "gender": "Female",
+        "orientation": "Asexual",
+        "creator": "Peace",
+        "imageURL": "https://i.imgur.com/gnspBsM.jpg",
+        "rare": false
+    },
+	{
+        "name": "Clancy Demmonds",
+        "interactionName": "Clancy",
+        "age": 5000,
+        "gender": "Male",
+        "orientation": "Bisexual",
+        "creator": "Silly",
+        "imageURL": "https://i.imgur.com/tjPOaa7.gif",
+        "rare": false
+    },
+	{
+        "name": "Jax Blackwood",
+        "interactionName": "Jax",
+        "age": 20,
+        "gender": "Male",
+        "orientation": "Straight",
+        "creator": "Violet",
+        "imageURL": "https://i.imgur.com/bpHi8mv.png",
+        "rare": false
+    },
+	{
+        "name": "Desdemona",
+        "interactionName": "Desdemona",
+        "age": 26,
+        "gender": "Female",
+        "orientation": "Homosexual",
+        "creator": "Silly",
+        "imageURL": "https://i.imgur.com/N3MtfKS.png",
+        "rare": false
+    },
+	{
+        "name": "Annabelle Smith",
+        "interactionName": "Annabelle",
+        "age": 19,
+        "gender": "Female",
+        "orientation": "Straight",
+        "creator": "Silly",
+        "imageURL": "https://i.imgur.com/AuhIzRU.png",
+        "rare": false
+    },
+	{
+        "name": "Constance Miller",
+        "interactionName": "Constance",
+        "age": 19,
+        "gender": "Female",
+        "orientation": "Homosexual",
+        "creator": "Silly",
+        "imageURL": "https://i.imgur.com/yhTUyjd.png",
+        "rare": false
+    },
+	{
+        "name": "Harper Nash",
+        "interactionName": "Harper",
+        "age": 21,
+        "gender": "Female",
+        "orientation": "Straight",
+        "creator": "Silly",
+        "imageURL": "https://i.imgur.com/LdvvfL5.png",
+        "rare": false
+    },
+	{
+        "name": "Astaroth",
+        "interactionName": "Astaroth",
+        "age": 500000,
+        "gender": "Male",
+        "orientation": "Straight",
+        "creator": "Silly",
+        "imageURL": "https://i.imgur.com/LVLQKRn.png",
+        "rare": false
+    },
+	{
+        "name": "Tanis",
+        "interactionName": "Tanis",
+        "age": 250000,
+        "gender": "Female",
+        "orientation": "Straight",
+        "creator": "Silly",
+        "imageURL": "https://i.imgur.com/hgeJtfY.png",
+        "rare": false
+    },
+	{
+        "name": "Espen",
+        "interactionName": "Espen",
+        "age": 7,
+        "gender": "Male",
+        "orientation": "Robosexual",
+        "creator": "Silly",
+        "imageURL": "https://i.imgur.com/QZ90XDv.png",
+        "rare": false
+    },
+	{
+        "name": "Bob Crocodile",
+        "interactionName": "Bob",
+        "age": 17,
+        "gender": "Non-Binary",
+        "orientation": "Crocsexual",
+        "creator": "Bubbie",
+        "imageURL": "https://i.imgur.com/9mOjJEb.png",
+        "rare": false
+    },
+	{
+        "name": "Chief",
+        "interactionName": "Chief",
+        "age": 50,
+        "gender": "Male",
+        "orientation": "he's a possum",
+        "creator": "Moose",
+        "imageURL": "https://i.imgur.com/DG3zdnq.png",
+        "rare": true
+    },
+	{
+        "name": "Amber Park",
+        "interactionName": "Amber",
+        "age": 27,
+        "gender": "Female",
+        "orientation": "Pansexual",
+        "creator": "Violet",
+        "imageURL": "https://i.imgur.com/h20qYHF.png",
+        "rare": false
+    },
+	{
+        "name": "Bee Park",
+        "interactionName": "Bee",
+        "age": 17,
+        "gender": "Female",
+        "orientation": "Pansexual",
+        "creator": "Moose",
+        "imageURL": "https://i.imgur.com/Aqj2uEg.png",
+        "rare": false
+    },
+	{
+        "name": "Gremlin Violet",
+        "interactionName": "Gremlin Vio",
+        "age": 17,
+        "gender": "Female",
+        "orientation": "Noah-Sexual",
+        "creator": "Violet",
+        "imageURL": "https://i.imgur.com/fA8vxtd.jpg",
+        "rare": true
+    },
+	{
+        "name": "Yeehaw Mari",
+        "interactionName": "Yeehaw Mari",
+        "age": 20,
+        "gender": "Female",
+        "orientation": "Homosexual",
+        "creator": "Mari",
+        "imageURL": "https://i.imgur.com/lrvJcF6.png",
+        "rare": true
+    },
+	{
+        "name": "Brody Heft",
+        "interactionName": "Brody",
+        "age": 17,
+        "gender": "Male",
+        "orientation": "Pansexual",
+        "creator": "Bubbie",
+        "imageURL": "https://i.imgur.com/SJvmyOf.png",
+        "rare": false
+    },
+	{
+        "name": "Nimue Yumino",
+        "interactionName": "Nimue",
+        "age": 17,
+        "gender": "Male",
+        "orientation": "Asexual",
+        "creator": "Bubbie",
+        "imageURL": "https://i.imgur.com/aC1F85e.png",
+        "rare": false
+    },
+	{
+        "name": "Venus Clarson",
+        "interactionName": "Venus",
+        "age": 19,
+        "gender": "Male",
+        "orientation": "Straight",
+        "creator": "Bubbie",
+        "imageURL": "https://i.imgur.com/BTSqVcx.png",
+        "rare": false
+    },
+	{
+        "name": "Zima Markov",
+        "interactionName": "Zima",
+        "age": 17,
+        "gender": "Male",
+        "orientation": "Lesbian",
+        "creator": "Bubbie",
+        "imageURL": "https://i.imgur.com/L7E1zLk.png",
+        "rare": false
+    },
+	{
+        "name": "Timothy Johnson",
+        "interactionName": "Big Tim",
+        "age": 14,
+        "gender": "Male",
+        "orientation": "Straight",
+        "creator": "Alyssa",
+        "imageURL": "https://i.imgur.com/Vtqp8kK.png",
+        "rare": true
+    },
+	{
+        "name": "Wyn Blaese",
+        "interactionName": "Wyn",
+        "age": 17,
+        "gender": "Male",
+        "orientation": "Bisexual",
+        "creator": "Bubbie",
+        "imageURL": "https://i.imgur.com/vl97b4k.png",
+        "rare": false
+    },
+	{
+        "name": "Jamie Warner",
+        "interactionName": "Jamie",
+        "age": 19,
+        "gender": "Male",
+        "orientation": "Homosexual",
+        "creator": "Alyssa",
+        "imageURL": "https://i.imgur.com/7IUVr4u.png",
+        "rare": false
+    },
+	{
+        "name": "Princeton Gardner",
+        "interactionName": "Princeton",
+        "age": 19,
+        "gender": "Male",
+        "orientation": "Straight",
+        "creator": "Bubbie",
+        "imageURL": "https://i.imgur.com/Egml1Wa.png",
+        "rare": false
+    },
+	{
+        "name": "Jasper Thomas",
+        "interactionName": "Jasper",
+        "age": 25,
+        "gender": "???",
+        "orientation": "Asexual",
+        "creator": "Violet",
+        "imageURL": "https://i.imgur.com/vTI9hU9.png",
+        "rare": false
+    },
+	{
+        "name": "Gregory Glarix",
+        "interactionName": "Glarix",
+        "age": 43,
+        "gender": "Male",
+        "orientation": "Who the fuck knows",
+        "creator": "Cassie",
+        "imageURL": "https://i.imgur.com/w9Up2gx.png",
+        "rare": true
+    },
+	{
+        "name": "Xenus",
+        "interactionName": "Xenus",
+        "age": 37,
+        "gender": "Male",
+        "orientation": "???",
+        "creator": "Solar",
+        "imageURL": "https://i.imgur.com/ZqDWmRV.png",
+        "rare": false
+    },
+	{
+        "name": "Calvin",
+        "interactionName": "Calvin",
+        "age": 1,
+        "gender": "Male",
+        "orientation": "Loves treats more than his mother",
+        "creator": "Violet",
+        "imageURL": "https://i.imgur.com/Bbg76SB.jpg",
+        "rare": true
+    },
+	{
+        "name": "Fabian Varela",
+        "interactionName": "Fabian",
+        "age": 18,
+        "gender": "Male",
+        "orientation": "Straight",
+        "creator": "Solar",
+        "imageURL": "https://i.imgur.com/ByAWXCX.png",
+        "rare": false
+    },
+	{
+        "name": "Vlynnder",
+        "interactionName": "Vlynnder",
+        "age": 420,
+        "gender": "Male",
+        "orientation": "Bisexual",
+        "creator": "Solar",
+        "imageURL": "https://i.imgur.com/f3Oa9hx.jpg",
+        "rare": false
+    },
+	{
+        "name": "Chrystopher Webb",
+        "interactionName": "Chrystopher",
+        "age": 16,
+        "gender": "Male",
+        "orientation": "Demisexual",
+        "creator": "Solar",
+        "imageURL": "https://i.imgur.com/cvU6FvI.png",
+        "rare": false
+    },
+	{
+        "name": "Cammy",
+        "interactionName": "Cammy",
+        "age": 21,
+        "gender": "Female",
+        "orientation": "Monster Fucker",
+        "creator": "Solar",
+        "imageURL": "https://i.imgur.com/qjzq2HV.png",
+        "rare": true
+    },
+	{
+        "name": "Solaresque",
+        "interactionName": "Sol",
+        "age": 21,
+        "gender": "???",
+        "orientation": "Still a Monster Fucker",
+        "creator": "Solar",
+        "imageURL": "https://i.imgur.com/UKV9Vnp.png",
+        "rare": true
+    },
+	{
+        "name": "Dausuke Igarashi",
+        "interactionName": "Dausuke",
+        "age": 16,
+        "gender": "Male",
+        "orientation": "Straight",
+        "creator": "Kari",
+        "imageURL": "https://i.imgur.com/JxQopzl.png",
+        "rare": false
+    },
+	{
+        "name": "Daihara Igarashi",
+        "interactionName": "Daihara",
+        "age": 18,
+        "gender": "Male",
+        "orientation": "Straight",
+        "creator": "Kari",
+        "imageURL": "https://i.imgur.com/HkqZChb.png",
+        "rare": false
+    },
+	{
+        "name": "Danny Laramore",
+        "interactionName": "Danny",
+        "age": 17,
+        "gender": "Male",
+        "orientation": "Aromantic",
+        "creator": "Kari",
+        "imageURL": "https://i.imgur.com/Tw1gSMi.png",
+        "rare": false
+    },
+	{
+        "name": "Risaikuru Haikibutsu",
+        "interactionName": "Risaikuru",
+        "age": 18,
+        "gender": "Male",
+        "orientation": "Pansexual",
+        "creator": "Kari",
+        "imageURL": "https://i.imgur.com/tRVRkBO.png",
+        "rare": false
+    },
+	{
+        "name": "Arthur Pawlitzki",
+        "interactionName": "Arthur",
+        "age": 17,
+        "gender": "Male",
+        "orientation": "???",
+        "creator": "Kari",
+        "imageURL": "https://i.imgur.com/ql3GN4f.png",
+        "rare": false
+    },
+	{
+        "name": "Naomi Jennings",
+        "interactionName": "Naomi",
+        "age": 15,
+        "gender": "Female",
+        "orientation": "Pansexual",
+        "creator": "Mika",
+        "imageURL": "https://i.imgur.com/GpxCpLe.png",
+        "rare": false
+    },
+	{
+        "name": "Kasai Modeus",
+        "interactionName": "Kasai",
+        "age": 32,
+        "gender": "Female",
+        "orientation": "Bisexual",
+        "creator": "Rawrbug",
+        "imageURL": "https://i.imgur.com/beM1tjW.png",
+        "rare": false
+    },
+	{
+        "name": "Azrael Torsten",
+        "interactionName": "Azrael",
+        "age": 18,
+        "gender": "Male",
+        "orientation": "Asexual",
+        "creator": "Solar",
+        "imageURL": "https://i.imgur.com/mvl61IS.png",
+        "rare": false
+    },
+	{
+        "name": "Rokishi Orenji",
+        "interactionName": "Roki",
+        "age": 18,
+        "gender": "Female",
+        "orientation": "Pansexual",
+        "creator": "Kari",
+        "imageURL": "https://i.imgur.com/npF98RI.png",
+        "rare": false
+    },
+	{
+        "name": "Neko Hisaki",
+        "interactionName": "Neko Hisaki",
+        "age": 17,
+        "gender": "Male",
+        "orientation": "Pansexual",
+        "creator": "Solar",
+        "imageURL": "https://i.imgur.com/eKHDzP6.jpg",
+        "rare": true
+    },
+	{
+        "name": "Neko Khaine",
+        "interactionName": "Neko Khaine",
+        "age": 17,
+        "gender": "Male",
+        "orientation": "Not for Mika or Kitten to fuck",
+        "creator": "Solar",
+        "imageURL": "https://i.imgur.com/8WpsjRz.jpg",
+        "rare": true
+    },
+	{
+        "name": "Fredrick",
+        "interactionName": "Fredrick",
+        "age": 10,
+        "gender": "Male",
+        "orientation": "???",
+        "creator": "Kari",
+        "imageURL": "https://i.imgur.com/YcgVdle.jpg",
+        "rare": true
+    },
+	{
+        "name": "Ann Henson",
+        "interactionName": "Ann",
+        "age": 25,
+        "gender": "Female",
+        "orientation": "Straight",
+        "creator": "Cassie",
+        "imageURL": "https://i.imgur.com/5H8gZDa.png",
+        "rare": false
+    },
+	{
+        "name": "Ghost Ann",
+        "interactionName": "Ghost Ann",
+        "age": 10,
+        "gender": "Female",
+        "orientation": "shes a ghost dude",
+        "creator": "Cassie",
+        "imageURL": "https://i.imgur.com/v3XXvMW.png",
+        "rare": false
+    },
+	{
+        "name": "Berry Blue",
+        "interactionName": "Blue",
+        "age": 18,
+        "gender": "Male",
+        "orientation": "Trash Man",
+        "creator": "Cassie",
+        "imageURL": "https://i.imgur.com/5ThyAbn.png",
+        "rare": true
+    },
+	{
+        "name": "Pink Kiddo",
+        "interactionName": "Pink",
+        "age": 18,
+        "gender": "Male",
+        "orientation": "Cannons",
+        "creator": "Cassie",
+        "imageURL": "https://i.imgur.com/U8CjOvd.png",
+        "rare": true
+    },
+	{
+        "name": "Yellow Liar",
+        "interactionName": "Yellow",
+        "age": 18,
+        "gender": "Female",
+        "orientation": "who goddamn knows",
+        "creator": "Cassie",
+        "imageURL": "https://i.imgur.com/ZXHeCSL.png",
+        "rare": true
+    },
+	{
+        "name": "Orange Peel",
+        "interactionName": "Orange",
+        "age": 18,
+        "gender": "Male",
+        "orientation": "Fire???",
+        "creator": "Cassie",
+        "imageURL": "https://i.imgur.com/UW7JwGJ.png",
+        "rare": true
+    },
+	{
+        "name": "Green Guts",
+        "interactionName": "Green",
+        "age": 18,
+        "gender": "Male",
+        "orientation": "Junk Food",
+        "creator": "Cassie",
+        "imageURL": "https://i.imgur.com/GEk6sNn.png",
+        "rare": true
+    },
+	{
+        "name": "Leuruna",
+        "interactionName": "Leuruna",
+        "age": 19,
+        "gender": "Female",
+        "orientation": "Pansexual",
+        "creator": "Cassie",
+        "imageURL": "https://i.imgur.com/2uaLOQz.png",
+        "rare": false
+    },
+	{
+        "name": "Katsusmi Horiko",
+        "interactionName": "Katsusmi",
+        "age": 17,
+        "gender": "Male",
+        "orientation": "Bicurious",
+        "creator": "Mika",
+        "imageURL": "https://i.imgur.com/JPhiyYn.png",
+        "rare": false
+    },
+	{
+        "name": "SockBot",
+        "interactionName": "Sockbot",
+        "age": 18,
+        "gender": "Female",
+        "orientation": "Pansexual",
+        "creator": "Goob",
+        "imageURL": "https://i.imgur.com/h48yvMO.png",
+        "rare": true
+    },
+	{
+        "name": "Neko V.E.R.E.",
+        "interactionName": "Neko V.E.R.E.",
+        "age": "???",
+        "gender": "Male",
+        "orientation": "???",
+        "creator": "Mika",
+        "imageURL": "https://i.imgur.com/Y924dUA.png",
+        "rare": true
+    },
+	{
+        "name": "Noriko Hirabayashi",
+        "interactionName": "Noriko",
+        "age": 16,
+        "gender": "Female",
+        "orientation": "???",
+        "creator": "Kari",
+        "imageURL": "https://i.imgur.com/lDxjwT9.png",
+        "rare": false
+    },
+	{
+        "name": "Christian Pawlitzki",
+        "interactionName": "Christian",
+        "age": 18,
+        "gender": "Male",
+        "orientation": "Homosexual",
+        "creator": "Moose",
+        "imageURL": "https://i.imgur.com/zriHoDn.jpg",
+        "rare": false
+    },
+	{
+        "name": "Amber",
+        "interactionName": "Amber",
+        "age": 22,
+        "gender": "Female",
+        "orientation": "Asexual",
+        "creator": "Oli",
+        "imageURL": "https://i.imgur.com/WxHDq9G.png",
+        "rare": false
+    },
+	{
+        "name": "Atheena Fitzroy",
+        "interactionName": "Atheena",
+        "age": 18,
+        "gender": "Female",
+        "orientation": "???",
+        "creator": "Kari",
+        "imageURL": "https://i.imgur.com/8NYgfV4.png",
+        "rare": false
+    },
+	{
+        "name": "Echo Rei Igarashi",
+        "interactionName": "Echo",
+        "age": 2,
+        "gender": "Robot",
+        "orientation": "Robot",
+        "creator": "Kari",
+        "imageURL": "https://i.imgur.com/sVPvQNM.png",
+        "rare": false
+    },
+	{
+        "name": "Linnamelia Grimm",
+        "interactionName": "Linnamelia",
+        "age": 17,
+        "gender": "Female",
+        "orientation": "Homosexual",
+        "creator": "Kari",
+        "imageURL": "https://i.imgur.com/V6lniuq.png",
+        "rare": false
+    },
+	{
+        "name": "Rosemary Minnet",
+        "interactionName": "Rosemary",
+        "age": 16,
+        "gender": "Female",
+        "orientation": "Straight",
+        "creator": "Kari",
+        "imageURL": "https://i.imgur.com/GgM2MUm.png",
+        "rare": false
+    },
+	{
+        "name": "Wilbur Kamera",
+        "interactionName": "Wilbur",
+        "age": 15,
+        "gender": "Male",
+        "orientation": "No!",
+        "creator": "Kari",
+        "imageURL": "https://i.imgur.com/jvmeu3E.png",
+        "rare": false
+    },
+	{
+        "name": "Cowboy Vince",
+        "interactionName": "Cowboy Vince",
+        "age": "011000110110111101110111011000100110111101111001",
+        "gender": "Male",
+        "orientation": "Yeehaw!!!",
+        "creator": "Violet",
+        "imageURL": "https://i.imgur.com/6W3n5o6.png",
+        "rare": true
+    },
+	{
+        "name": "Cowboy Vio",
+        "interactionName": "Cowboy Vio",
+        "age": 16,
+        "gender": "Female",
+        "orientation": "Bisexual",
+        "creator": "Violet",
+        "imageURL": "https://i.imgur.com/rKP8unG.png",
+        "rare": true
+    },
+	{
+        "name": "Cowboy Oli",
+        "interactionName": "Cowboy Oli",
+        "age": 17,
+        "gender": "wack",
+        "orientation": ";)",
+        "creator": "Oli",
+        "imageURL": "https://i.imgur.com/HcCe7un.png",
+        "rare": true
+    },
+	{
+        "name": "Cowboy Goob",
+        "interactionName": "Cowboy Goob",
+        "age": 17,
+        "gender": "\"Female\"",
+        "orientation": "Straight",
+        "creator": "Goob",
+        "imageURL": "https://i.imgur.com/thyKyjM.png",
+        "rare": true
+    },
+	{
+        "name": "Velvet Vancouver",
+        "interactionName": "Velvet",
+        "age": 20,
+        "gender": "Female",
+        "orientation": "???",
+        "creator": "Violet",
+        "imageURL": "https://i.imgur.com/mWQnas7.png",
+        "rare": false
+    },
+	{
+        "name": "Ajax",
+        "interactionName": "Ajax",
+        "age": 18,
+        "gender": "Female",
+        "orientation": "???",
+        "creator": "Violet",
+        "imageURL": "https://i.imgur.com/xS6V7CE.png",
+        "rare": false
+    },
+    {
+        "name": "Olivia Bates",
+        "interactionName": "Olivia",
+        "age": 16,
+        "gender": "Female",
+        "orientation": "Pansexual",
+        "creator": "Goob",
+        "imageURL": "https://i.imgur.com/Xff55DR.png",
+        "rare": false
+    },
+    {
+        "name": "Isaac Shimizu",
+        "interactionName": "Isaac",
+        "age": 18,
+        "gender": "Male",
+        "orientation": "If he can stop bleeding, gaaaaaaaaaay as fuuuuuuuck",
+        "creator": "Peace",
+        "imageURL": "https://i.imgur.com/oGpFY1m.png",
+        "rare": false
+    },
+    {
+        "name": "Zinnia Ambrosia",
+        "interactionName": "Zinnia",
+        "age": 16,
+        "gender": "Female",
+        "orientation": "???",
+        "creator": "Mika",
+        "imageURL": "https://i.imgur.com/dTDBPNl.gif",
+        "rare": false
+    },
+    {
+        "name": "June",
+        "interactionName": "June",
+        "age": 20,
+        "gender": "Female",
+        "orientation": "Asexual",
+        "creator": "Oli",
+        "imageURL": "https://i.imgur.com/1QEWHO5.png",
+        "rare": false
+    }
+]

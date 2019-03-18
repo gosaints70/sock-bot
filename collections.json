@@ -1,0 +1,45 @@
+[
+    {
+        "name": "Cowboys",
+        "characters": [
+            215,
+            216,
+            217,
+            218,
+            166
+        ]
+    },
+    {
+        "name": "Clowns",
+        "characters": [
+            198,
+            199,
+            200,
+            201,
+            202,
+            132
+        ]
+    },
+    {
+        "name": "Personas",
+        "characters": [
+            3,
+            30,
+            5,
+            108,
+            45,
+            88,
+            129
+        ]
+    },
+    {
+        "name": "Furries",
+        "characters": [
+            108,
+            45,
+            88,
+            137,
+            129
+        ]
+    }
+]
