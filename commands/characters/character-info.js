@@ -1,19 +1,19 @@
-const { Command } = require('discord.js-commando');
-var fs = require('fs');
+const { Command } = require("discord.js-commando");
+var fs = require("fs");
 
 module.exports = class CharacterInfoCommand extends Command {
     constructor(client) {
         super(client, {
-            name: 'info',
-            group: 'characters',
-            memberName: 'info',
-            description: 'View character info.',
-            examples: ['info The Chad'],
+            name: "info",
+            group: "characters",
+            memberName: "info",
+            description: "View character info.",
+            examples: ["info The Chad"],
             args: [
                 {
-                    key: 'characterName',
-                    prompt: 'What character do you want to view?',
-                    type: 'string|integer'
+                    key: "characterName",
+                    prompt: "What character do you want to view?",
+                    type: "string|integer"
                 }
             ]
         });

@@ -1,31 +1,31 @@
-const { Command } = require('discord.js-commando');
-var fs = require('fs');
+const { Command } = require("discord.js-commando");
+var fs = require("fs");
 
 module.exports = class WishlistCommand extends Command {
     constructor(client) {
         super(client, {
-            name: 'wishlist',
-            aliases: ['w'],
-            group: 'characters',
-            memberName: 'wishlist',
-            description: 'Adds a character to your wishlist.',
+            name: "wishlist",
+            aliases: ["w"],
+            group: "characters",
+            memberName: "wishlist",
+            description: "Adds a character to your wishlist.",
             examples: [
-                'wishlist',
-                'wishlist add The Chad',
-                'wishlist remove The Chad'
+                "wishlist",
+                "wishlist add The Chad",
+                "wishlist remove The Chad"
             ],
             args: [
                 {
-                    key: 'command',
-                    prompt: 'What function do you want to execute?',
-                    type: 'string',
-                    default: ''
+                    key: "command",
+                    prompt: "What function do you want to execute?",
+                    type: "string",
+                    default: ""
                 },
                 {
-                    key: 'name',
-                    prompt: 'Who do you want to add to your wishlist?',
-                    type: 'string',
-                    default: ''
+                    key: "name",
+                    prompt: "Who do you want to add to your wishlist?",
+                    type: "string",
+                    default: ""
                 }
             ]
         });
@@ -82,10 +82,10 @@ function updateRarity(msg, args) {
 
     if (parseFloat(count) / parseFloat(creditsJson.filter(f => f.characters.length > 0).length) >= 0.5) {
         charactersJson.find(f => f.name.toLowerCase() == args.name.toLowerCase()).rare = true;
-        fs.writeFileSync(require.resolve('../../characters.json'), JSON.stringify(charactersJson));
+        fs.writeFileSync(require.resolve("../../characters.json"), JSON.stringify(charactersJson));
     } else {
         charactersJson.find(f => f.name.toLowerCase() == charactersJson[j].name.toLowerCase()).rare = false;
-        fs.writeFileSync(require.resolve('./characters.json'), JSON.stringify(charactersJson));
+        fs.writeFileSync(require.resolve("./characters.json"), JSON.stringify(charactersJson));
     }
 }
 
@@ -98,7 +98,7 @@ function addToWishlist(msg, args) {
         for (var i = 0; i < creditsJson.length; i++) {
             if (creditsJson[i].id == user.id) {
                 creditsJson[i].wishlist.push(charactersJson.findIndex(f => f.name.toLowerCase() == args.name.toLowerCase()));
-                fs.writeFileSync(require.resolve('../../credits.json'), JSON.stringify(creditsJson));
+                fs.writeFileSync(require.resolve("../../credits.json"), JSON.stringify(creditsJson));
                 msg.say(charactersJson.find(f => f.name.toLowerCase() == args.name.toLowerCase()).name + " has been added to your wishlist.");
             }
         }
@@ -115,7 +115,7 @@ function removeFromWishlist(msg, args)  {
             if (creditsJson[i].wishlist.find(f => f == charactersJson.findIndex(f => f.name.toLowerCase() == args.name.toLowerCase())) != null) {
                 if (creditsJson[i].id == user.id) {
                     creditsJson[i].wishlist.splice(creditsJson[i].wishlist.findIndex(f => f == charactersJson.findIndex(f => f.name.toLowerCase() == args.name.toLowerCase())), 1);
-                    fs.writeFileSync(require.resolve('../../credits.json'), JSON.stringify(creditsJson));
+                    fs.writeFileSync(require.resolve("../../credits.json"), JSON.stringify(creditsJson));
                     msg.say(charactersJson.find(f => f.name.toLowerCase() == args.name.toLowerCase()).name + " has been removed from your wishlist.");
                 }
             }

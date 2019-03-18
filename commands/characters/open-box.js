@@ -1,21 +1,21 @@
-const Discord = require('discord.js');
+const Discord = require("discord.js");
 const {
     Command
-} = require('discord.js-commando');
-var fs = require('fs');
+} = require("discord.js-commando");
+var fs = require("fs");
 
 module.exports = class OpenBoxCommand extends Command {
     constructor(client) {
         super(client, {
-            name: 'open',
-            group: 'characters',
-            memberName: 'open',
-            description: 'Tries to open a box.',
-            examples: ['open abcdefg'],
+            name: "open",
+            group: "characters",
+            memberName: "open",
+            description: "Tries to open a box.",
+            examples: ["open abcdefg"],
             args: [{
-                key: 'code',
-                prompt: 'Whats the boxs code?',
-                type: 'string'
+                key: "code",
+                prompt: "Whats the boxs code?",
+                type: "string"
             }]
         });
     }
@@ -54,7 +54,7 @@ module.exports = class OpenBoxCommand extends Command {
                         global.currentBoxMessage = "";
                         /*msg.say("", {
                             files: [
-                                require.resolve('../../box_open.png')
+                                require.resolve("../../box_open.png")
                             ]
                         });*/
                         creditsJson[i].keys.splice(creditsJson[i].keys.findIndex(f => f == global.currentBoxKeyColor), 1);
@@ -75,10 +75,10 @@ module.exports = class OpenBoxCommand extends Command {
                                 "affection": 0,
                                 "lastInteract": ""
                             });
-                            fs.writeFileSync(require.resolve('../../credits.json'), JSON.stringify(creditsJson));
+                            fs.writeFileSync(require.resolve("../../credits.json"), JSON.stringify(creditsJson));
                             return msg.say("Nice! <@" + msg.author.id + "> has opened the SockBox and recieved " + credits + " credits!\n\nThe box also contained [" + rarity + "] " + charactersJson[finalIndex].name, new Discord.MessageAttachment(charactersJson[finalIndex].imageURL));
                         }
-                        fs.writeFileSync(require.resolve('../../credits.json'), JSON.stringify(creditsJson));
+                        fs.writeFileSync(require.resolve("../../credits.json"), JSON.stringify(creditsJson));
                         return msg.say("Nice! <@" + msg.author.id + "> has opened the SockBox and recieved " + credits + " credits!");
                     } else {
                         return msg.say({

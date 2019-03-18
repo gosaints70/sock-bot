@@ -1,24 +1,24 @@
-const { Command } = require('discord.js-commando');
-var fs = require('fs');
+const { Command } = require("discord.js-commando");
+var fs = require("fs");
 
 module.exports = class GiveCommand extends Command {
     constructor(client) {
         super(client, {
-            name: 'give',
-            group: 'economy',
-            memberName: 'give',
-            description: 'Transfers the specified user the specified amount of credits from your balance.',
-            examples: ['give @glabadie 1000'],
+            name: "give",
+            group: "economy",
+            memberName: "give",
+            description: "Transfers the specified user the specified amount of credits from your balance.",
+            examples: ["give @glabadie 1000"],
             args: [
                 {
-                    key: 'recipient',
-                    prompt: 'Who would you like to give credits to?',
-                    type: 'member'
+                    key: "recipient",
+                    prompt: "Who would you like to give credits to?",
+                    type: "member"
                 },
                 {
-                    key: 'amount',
-                    prompt: 'How many credits would you like to give?',
-                    type: 'integer',
+                    key: "amount",
+                    prompt: "How many credits would you like to give?",
+                    type: "integer",
                     min: 1
                 }
             ]
@@ -72,7 +72,7 @@ module.exports = class GiveCommand extends Command {
                 }
             }
         }
-        fs.writeFileSync(require.resolve('../../credits.json'), JSON.stringify(creditsJson));
+        fs.writeFileSync(require.resolve("../../credits.json"), JSON.stringify(creditsJson));
         if (!foundUser) {
             return msg.say({
                 embed: {

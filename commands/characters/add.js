@@ -1,33 +1,34 @@
 const {
     Command
-} = require('discord.js-commando');
-var moment = require('moment-timezone');
-var fs = require('fs');
+} = require("discord.js-commando");
+var moment = require("moment-timezone");
+var fs = require("fs");
 
 moment.tz("America/Chicago").format();
 
 module.exports = class AddCommand extends Command {
     constructor(client) {
         super(client, {
-            name: 'add',
-            group: 'characters',
-            memberName: 'add',
-            description: 'Adds a character to the specified users list.',
-            examples: ['add 0 @Solaresque', 'add 0 @Solaresque beta'],
+            name: "add",
+            group: "characters",
+            memberName: "add",
+            description: "Adds a character to the specified users list.",
+            examples: ["add 0 @Solaresque", "add 0 @Solaresque beta"],
+            ownerOnly,
             args: [{
-                    key: 'characterIndex',
-                    prompt: 'Which character do you want to add?',
-                    type: 'integer'
+                    key: "characterIndex",
+                    prompt: "Which character do you want to add?",
+                    type: "integer"
                 },
                 {
-                    key: 'user',
-                    prompt: 'Who do you want to give a character to?',
-                    type: 'user'
+                    key: "user",
+                    prompt: "Who do you want to give a character to?",
+                    type: "user"
                 },
                 {
-                    key: 'rarity',
-                    prompt: 'Which rarity would you like the character to be?',
-                    type: 'string',
+                    key: "rarity",
+                    prompt: "Which rarity would you like the character to be?",
+                    type: "string",
                     default: "random"
                 }
             ]
@@ -37,44 +38,29 @@ module.exports = class AddCommand extends Command {
     run(msg, args) {
         var creditsJson = readJson("../../credits.json");
         var charactersJson = readJson("../../characters.json");
+        var resultingRarity;
 
         for (var i = 0; i < creditsJson.length; i++) {
             if (creditsJson[i].id == args.user.id) {
-                var resultingRarity = "";
-
-                switch (args.rarity.toLowerCase()) {
-                    case "alpha":
-                        resultingRarity = "❀";
-                        break;
-                    case "beta":
-                        resultingRarity = "♬";
-                        break;
-                    case "gamma":
-                        resultingRarity = "♡";
-                        break;
-                    case "delta":
-                        resultingRarity = "✧";
-                        break;
-                    case "epsilon":
-                        resultingRarity = "☆";
-                        break;
-                    case "zeta":
-                        resultingRarity = "♛";
-                        break;
-                    case "random":
-                        resultingRarity = global.getRaritySymbol(Math.floor(Math.random() * 200) + 1);
-                        break;
+                if (args.rarity.toLowerCase() != "random") {
+                    resultingRarity = global.raritySymbols[args.rarity.toLowerCase()];
                 }
+                else
+                {
+                    resultingRarity = global.getRaritySymbol(Math.floor(Math.random() * 200) + 1);
+                }
+
                 creditsJson[i].characters.push({
                     id: args.characterIndex,
                     rarity: resultingRarity,
+                    category: "",
                     working: false,
                     workStart: "",
                     workCooldown: "",
                     affection: 0,
                     lastInteract: ""
                 });
-                fs.writeFileSync(require.resolve('../../credits.json'), JSON.stringify(creditsJson));
+                fs.writeFileSync(require.resolve("../../credits.json"), JSON.stringify(creditsJson));
                 msg.say("Added [" + resultingRarity + "] " + charactersJson[args.characterIndex].name + " to " + args.user.username + "'s list.");
             }
         }

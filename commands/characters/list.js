@@ -1,29 +1,29 @@
-    const { Command } = require('discord.js-commando');
-var fs = require('fs');
+    const { Command } = require("discord.js-commando");
+var fs = require("fs");
 
 module.exports = class ListCommand extends Command {
     constructor(client) {
         super(client, {
-            name: 'oldlist',
-            group: 'characters',
-            memberName: 'oldlist',
-            description: 'Views your list.',
+            name: "oldlist",
+            group: "characters",
+            memberName: "oldlist",
+            description: "Views your list.",
             examples: [
-                'oldlist',
-                'oldlist @MikaStarrydust'
+                "oldlist",
+                "oldlist @MikaStarrydust"
             ],
             args: [
                 {
-                    key: 'user',
-                    prompt: 'Whos list do you want to view?',
-                    type: 'user|integer',
-                    default: ''
+                    key: "user",
+                    prompt: "Whos list do you want to view?",
+                    type: "user|integer",
+                    default: ""
                 },
                 {
-                    key: 'page',
-                    prompt: 'Which page do you want to view?',
-                    type: 'integer',
-                    default: '1'
+                    key: "page",
+                    prompt: "Which page do you want to view?",
+                    type: "integer",
+                    default: "1"
                 }
             ]
         });

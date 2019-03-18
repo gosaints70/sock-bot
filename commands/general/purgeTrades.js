@@ -1,16 +1,16 @@
-const { Command } = require('discord.js-commando');
-var fs = require('fs');
+const { Command } = require("discord.js-commando");
+var fs = require("fs");
 
 module.exports = class PurgeTradesCommand extends Command {
     constructor(client) {
         super(client, {
-            name: 'purgetrades',
-            aliases: ['cleartrades'],
-            group: 'general',
-            memberName: 'purgetrades',
-            description: 'Purges trades, just in case the bot breaks.',
+            name: "purgetrades",
+            aliases: ["cleartrades"],
+            group: "general",
+            memberName: "purgetrades",
+            description: "Purges trades, just in case the bot breaks.",
             examples: [
-                'purgetrades'
+                "purgetrades"
             ]
         });
     }
@@ -25,7 +25,7 @@ module.exports = class PurgeTradesCommand extends Command {
 
         tradesJson = [];
 
-        fs.writeFileSync(require.resolve('../../trades.json'), JSON.stringify(tradesJson));
+        fs.writeFileSync(require.resolve("../../trades.json"), JSON.stringify(tradesJson));
 
         msg.say("Trades have been purged.");
     }

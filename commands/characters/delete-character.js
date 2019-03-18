@@ -1,19 +1,19 @@
-const { Command } = require('discord.js-commando');
-var fs = require('fs');
+const { Command } = require("discord.js-commando");
+var fs = require("fs");
 
 module.exports = class DeleteCharacterCommand extends Command {
     constructor(client) {
         super(client, {
-            name: 'deletecharacter',
-            group: 'characters',
-            memberName: 'deletecharacter',
-            description: 'Deletes the specified character.',
-            examples: ['deletecharacter Chad'],
+            name: "deletecharacter",
+            group: "characters",
+            memberName: "deletecharacter",
+            description: "Deletes the specified character.",
+            examples: ["deletecharacter Chad"],
             args: [
                 {
-                    key: 'name',
-                    prompt: 'Whats the characters name?',
-                    type: 'string'
+                    key: "name",
+                    prompt: "Whats the characters name?",
+                    type: "string"
                 }
             ]
         });
@@ -28,7 +28,7 @@ module.exports = class DeleteCharacterCommand extends Command {
                 for (var j = 0; j < creditsJson[i].characters.length; j++) {
                     if (creditsJson[i].characters[j].name.toLowerCase() == args.name.toLowerCase()) {
                         creditsJson[i].characters.splice(j, 1);
-                        fs.writeFileSync(require.resolve('../../credits.json'), JSON.stringify(creditsJson));
+                        fs.writeFileSync(require.resolve("../../credits.json"), JSON.stringify(creditsJson));
                         return msg.say({
                             embed:{
                                 color: 7419530,

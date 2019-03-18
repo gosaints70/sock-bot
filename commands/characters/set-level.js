@@ -1,38 +1,38 @@
-const Discord = require('discord.js');
+const Discord = require("discord.js");
 const client = new Discord.Client();
-const { Command } = require('discord.js-commando');
-var fs = require('fs');
+const { Command } = require("discord.js-commando");
+var fs = require("fs");
 
 module.exports = class SetLevelCommand extends Command {
     constructor(client) {
         super(client, {
-            name: 'setlevel',
-            group: 'characters',
-            memberName: 'setlevel',
-            description: 'Sets the level of the specified users character in the specified stat.',
-            examples: ['setlevel @MikaStarrydust combat 5'],
-            userPermission: ['MANAGE_MESSAGES'],
+            name: "setlevel",
+            group: "characters",
+            memberName: "setlevel",
+            description: "Sets the level of the specified users character in the specified stat.",
+            examples: ["setlevel @MikaStarrydust combat 5"],
+            userPermission: ["MANAGE_MESSAGES"],
             args: [
                 {
-                    key: 'member',
-                    prompt: 'Whose stats would you like to change?',
-                    type: 'member',
-                    default: 'noinput'
+                    key: "member",
+                    prompt: "Whose stats would you like to change?",
+                    type: "member",
+                    default: "noinput"
                 },
                 {
-                    key: 'character',
-                    prompt: 'Which characters would you like to see?',
-                    type: 'string'
+                    key: "character",
+                    prompt: "Which characters would you like to see?",
+                    type: "string"
                 },
                 {
-                    key: 'stat',
-                    prompt: 'Which stat would you like to chage?',
-                    type: 'string'
+                    key: "stat",
+                    prompt: "Which stat would you like to chage?",
+                    type: "string"
                 },
                 {
-                    key: 'level',
-                    prompt: 'What level would you like to set the stat to?',
-                    type: 'integer',
+                    key: "level",
+                    prompt: "What level would you like to set the stat to?",
+                    type: "integer",
                     min: 1
                 }
             ]
@@ -58,7 +58,7 @@ module.exports = class SetLevelCommand extends Command {
 
         currentStats[Object.keys(currentStats)[Object.keys(currentStats).indexOf(args.stat.toLowerCase())]] = args.level;
 
-        fs.writeFileSync(require.resolve('../../credits.json'), JSON.stringify(creditsJson));
+        fs.writeFileSync(require.resolve("../../credits.json"), JSON.stringify(creditsJson));
         
         var returnMessage = capitalizeFirstLetter(args.character) + "'s " + args.stat + " level has been set to " + args.level + ".\n\n";
 

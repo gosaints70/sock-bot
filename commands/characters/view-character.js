@@ -1,19 +1,19 @@
-const { Command } = require('discord.js-commando');
-var fs = require('fs');
+const { Command } = require("discord.js-commando");
+var fs = require("fs");
 
 module.exports = class ViewCharacterCommand extends Command {
     constructor(client) {
         super(client, {
-            name: 'view',
-            group: 'characters',
-            memberName: 'view',
-            description: 'View character at the given index.',
-            examples: ['view 4'],
+            name: "view",
+            group: "characters",
+            memberName: "view",
+            description: "View character at the given index.",
+            examples: ["view 4"],
             args: [
                 {
-                    key: 'characterIndex',
-                    prompt: 'What index do you want to view?',
-                    type: 'integer',
+                    key: "characterIndex",
+                    prompt: "What index do you want to view?",
+                    type: "integer",
                     min: 0
                 }
             ]

@@ -1,23 +1,23 @@
 const {
     Command
-} = require('discord.js-commando');
-var moment = require('moment-timezone');
-var fs = require('fs');
+} = require("discord.js-commando");
+var moment = require("moment-timezone");
+var fs = require("fs");
 
 moment.tz("America/Chicago").format();
 
 module.exports = class InteractCommand extends Command {
     constructor(client) {
         super(client, {
-            name: 'interact',
-            group: 'characters',
-            memberName: 'interact',
-            description: 'Interacts a character.',
-            examples: ['interact 2'],
+            name: "interact",
+            group: "characters",
+            memberName: "interact",
+            description: "Interacts a character.",
+            examples: ["interact 2"],
             args: [{
-                key: 'index',
-                prompt: 'Who do you wanna interact with?',
-                type: 'integer',
+                key: "index",
+                prompt: "Who do you wanna interact with?",
+                type: "integer",
                 min: 0
             }]
         });
@@ -53,7 +53,7 @@ module.exports = class InteractCommand extends Command {
 
         var locations = [
             "in your mom's basement",
-            "in a Chilli's parking lot",
+            "in a Chili's parking lot",
             "in the forest",
             "in front of your mom",
             "at school",
@@ -79,8 +79,8 @@ module.exports = class InteractCommand extends Command {
                     return msg.say("This character is working, you can't interact with them right now.");
                 }
 
-                if (creditsJson[i].characters[args.index].lastInteract != moment.tz("America/Chicago").format('L')) {
-                    creditsJson[i].characters[args.index].lastInteract = moment.tz("America/Chicago").format('L');
+                if (creditsJson[i].characters[args.index].lastInteract != moment.tz("America/Chicago").format("L")) {
+                    creditsJson[i].characters[args.index].lastInteract = moment.tz("America/Chicago").format("L");
                     creditsJson[i].characters[args.index].affection += points;
                 }
                 else 
@@ -104,7 +104,7 @@ module.exports = class InteractCommand extends Command {
                       description: desc 
                   }
                 });
-                fs.writeFileSync(require.resolve('../../credits.json'), JSON.stringify(creditsJson));
+                fs.writeFileSync(require.resolve("../../credits.json"), JSON.stringify(creditsJson));
             }
         }
     }

@@ -1,23 +1,23 @@
 const {
     Command
-} = require('discord.js-commando');
-var moment = require('moment-timezone');
-var fs = require('fs');
+} = require("discord.js-commando");
+var moment = require("moment-timezone");
+var fs = require("fs");
 
 moment.tz("America/Chicago").format();
 
 module.exports = class SellCommand extends Command {
     constructor(client) {
         super(client, {
-            name: 'sell',
-            group: 'characters',
-            memberName: 'sell',
-            description: 'Sells a character.',
-            examples: ['sell 32'],
+            name: "sell",
+            group: "characters",
+            memberName: "sell",
+            description: "Sells a character.",
+            examples: ["sell 32"],
             args: [{
-                key: 'index',
-                prompt: 'Who do you wanna sell?',
-                type: 'string',
+                key: "index",
+                prompt: "Who do you wanna sell?",
+                type: "string",
                 default: -1
             }]
         });
@@ -62,8 +62,8 @@ module.exports = class SellCommand extends Command {
         }
         for (var i = 0; i < creditsJson.length; i++) {
             if (creditsJson[i].id == user.id && creditsJson[i].characters.length > args.index && args.index > -1) {
-                if (creditsJson[i].lastSellsRefresh != moment.tz("America/Chicago").format('L')) {
-                    creditsJson[i].lastSellsRefresh = moment.tz("America/Chicago").format('L');
+                if (creditsJson[i].lastSellsRefresh != moment.tz("America/Chicago").format("L")) {
+                    creditsJson[i].lastSellsRefresh = moment.tz("America/Chicago").format("L");
                     creditsJson[i].sellsRemaining = 5;
                 }
 
@@ -94,9 +94,9 @@ module.exports = class SellCommand extends Command {
                 creditsJson[i].credits += reward;
                 msg.say("[" + creditsJson[i].characters[args.index].rarity + "] " + character.name + " has been sold to Server Host for " + reward + " credits. You now have ``" + creditsJson[i].credits + "``. I hope it was worth it.\nYou have " + creditsJson[i].sellsRemaining + " non-duplicate sells remaining for today.");
                 creditsJson[i].characters.splice(args.index, 1);
-                fs.writeFileSync(require.resolve('../../credits.json'), JSON.stringify(creditsJson));
+                fs.writeFileSync(require.resolve("../../credits.json"), JSON.stringify(creditsJson));
 
-                var imageURL = require.resolve('../../image0.jpg');
+                var imageURL = require.resolve("../../image0.jpg");
 
                 //client.channels.find("id", "533085381894078484").send(boxURL);
           

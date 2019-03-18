@@ -1,16 +1,16 @@
-const { Command } = require('discord.js-commando');
-var fs = require('fs');
+const { Command } = require("discord.js-commando");
+var fs = require("fs");
 
 module.exports = class KeysCommand extends Command {
     constructor(client) {
         super(client, {
-            name: 'keys',
-            aliases: ['keys'],
-            group: 'characters',
-            memberName: 'keys',
-            description: 'Views your keys.',
+            name: "keys",
+            aliases: ["keys"],
+            group: "characters",
+            memberName: "keys",
+            description: "Views your keys.",
             examples: [
-                'keys'
+                "keys"
             ]
         });
     }
@@ -33,7 +33,7 @@ module.exports = class KeysCommand extends Command {
             embed: {
                 color: 7419530,
                 author: {
-                    name: user.username + "'s SockBox Keys"
+                    name: user.username + ""s SockBox Keys"
                 },
                 description: desc
             }

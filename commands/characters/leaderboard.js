@@ -1,17 +1,17 @@
 const {
     Command
-} = require('discord.js-commando');
-var fs = require('fs');
+} = require("discord.js-commando");
+var fs = require("fs");
 
 module.exports = class LeaderboardCommand extends Command {
     constructor(client) {
         super(client, {
-            name: 'leaderboard',
-            group: 'characters',
-            memberName: 'leaderboard',
-            description: 'View the current top 5 rankings.',
+            name: "leaderboard",
+            group: "characters",
+            memberName: "leaderboard",
+            description: "View the current top 5 rankings.",
             examples: [
-                'leaderboard'
+                "leaderboard"
             ]
         });
     }

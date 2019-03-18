@@ -1,24 +1,24 @@
 const {
     Command
-} = require('discord.js-commando');
-var moment = require('moment-timezone');
-var fs = require('fs');
+} = require("discord.js-commando");
+var moment = require("moment-timezone");
+var fs = require("fs");
 
 moment.tz("America/Chicago").format();
 
 module.exports = class GachaCommand extends Command {
     constructor(client) {
         super(client, {
-            name: 'gacha',
-            group: 'characters',
-            memberName: 'gacha',
-            description: 'Rolls a gacha.',
-            examples: ['gacha'],
+            name: "gacha",
+            group: "characters",
+            memberName: "gacha",
+            description: "Rolls a gacha.",
+            examples: ["gacha"],
             args: [{
-                key: 'type',
-                prompt: 'What type of gacha would you like to roll?',
-                type: 'string',
-                default: ''
+                key: "type",
+                prompt: "What type of gacha would you like to roll?",
+                type: "string",
+                default: ""
             }]
         });
     }
@@ -31,7 +31,7 @@ module.exports = class GachaCommand extends Command {
             case "alpha":
                 if (creditsJson.find(f => f.id == user.id).credits >= 232) {
                     creditsJson.find(f => f.id == user.id).credits -= 232;
-                    fs.writeFileSync(require.resolve('../../credits.json'), JSON.stringify(creditsJson));
+                    fs.writeFileSync(require.resolve("../../credits.json"), JSON.stringify(creditsJson));
                     roll("❀", msg, args);
                 } else {
                     msg.say("Sorry! You don't have enough credits to do that.");
@@ -41,7 +41,7 @@ module.exports = class GachaCommand extends Command {
             case "beta":
                 if (creditsJson.find(f => f.id == user.id).credits >= 325) {
                     creditsJson.find(f => f.id == user.id).credits -= 325;
-                    fs.writeFileSync(require.resolve('../../credits.json'), JSON.stringify(creditsJson));
+                    fs.writeFileSync(require.resolve("../../credits.json"), JSON.stringify(creditsJson));
                     roll("♬", msg, args);
                 } else {
                     msg.say("Sorry! You don't have enough credits to do that.");
@@ -51,7 +51,7 @@ module.exports = class GachaCommand extends Command {
             case "gamma":
                 if (creditsJson.find(f => f.id == user.id).credits >= 511) {
                     creditsJson.find(f => f.id == user.id).credits -= 511;
-                    fs.writeFileSync(require.resolve('../../credits.json'), JSON.stringify(creditsJson));
+                    fs.writeFileSync(require.resolve("../../credits.json"), JSON.stringify(creditsJson));
                     roll("♡", msg, args);
                 } else {
                     msg.say("Sorry! You don't have enough credits to do that.");
@@ -61,7 +61,7 @@ module.exports = class GachaCommand extends Command {
             case "delta":
                 if (creditsJson.find(f => f.id == user.id).credits >= 883) {
                     creditsJson.find(f => f.id == user.id).credits -= 883;
-                    fs.writeFileSync(require.resolve('../../credits.json'), JSON.stringify(creditsJson));
+                    fs.writeFileSync(require.resolve("../../credits.json"), JSON.stringify(creditsJson));
                     roll("✧", msg, args);
                 } else {
                     msg.say("Sorry! You don't have enough credits to do that.");
@@ -71,7 +71,7 @@ module.exports = class GachaCommand extends Command {
             case "epsilon":
                 if (creditsJson.find(f => f.id == user.id).credits >= 1627) {
                     creditsJson.find(f => f.id == user.id).credits -= 1627;
-                    fs.writeFileSync(require.resolve('../../credits.json'), JSON.stringify(creditsJson));
+                    fs.writeFileSync(require.resolve("../../credits.json"), JSON.stringify(creditsJson));
                     roll("☆", msg, args);
                 } else {
                     msg.say("Sorry! You don't have enough credits to do that.");
@@ -81,7 +81,7 @@ module.exports = class GachaCommand extends Command {
             case "zeta":
                 if (creditsJson.find(f => f.id == user.id).credits >= 3115) {
                     creditsJson.find(f => f.id == user.id).credits -= 3115;
-                    fs.writeFileSync(require.resolve('../../credits.json'), JSON.stringify(creditsJson));
+                    fs.writeFileSync(require.resolve("../../credits.json"), JSON.stringify(creditsJson));
                     roll("♛", msg, args);
                 } else {
                     msg.say("Sorry! You don't have enough credits to do that.");
@@ -91,7 +91,7 @@ module.exports = class GachaCommand extends Command {
             case "all":
                 if (creditsJson.find(f => f.id == user.id).credits >= 850) {
                     creditsJson.find(f => f.id == user.id).credits -= 850;
-                    fs.writeFileSync(require.resolve('../../credits.json'), JSON.stringify(creditsJson));
+                    fs.writeFileSync(require.resolve("../../credits.json"), JSON.stringify(creditsJson));
                     randomRoll(msg, args);
                 } else {
                     msg.say("Sorry! You don't have enough credits to do that.");
@@ -202,7 +202,7 @@ function randomRoll(msg, args) {
                             }
                         }
                     }
-                    fs.writeFileSync(require.resolve('../../credits.json'), JSON.stringify(creditsJson));
+                    fs.writeFileSync(require.resolve("../../credits.json"), JSON.stringify(creditsJson));
                     message.edit({
                         embed: {
                             author: {
@@ -280,7 +280,7 @@ function roll(type, msg, args) {
                             });
                         }
                     }
-                    fs.writeFileSync(require.resolve('../../credits.json'), JSON.stringify(creditsJson));
+                    fs.writeFileSync(require.resolve("../../credits.json"), JSON.stringify(creditsJson));
                     message.edit({
                         embed: {
                             author: {

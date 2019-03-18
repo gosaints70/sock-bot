@@ -1,30 +1,30 @@
-const { Command } = require('discord.js-commando');
-var fs = require('fs');
+const { Command } = require("discord.js-commando");
+var fs = require("fs");
 
 module.exports = class DuplicatesCommand extends Command {
     constructor(client) {
         super(client, {
-            name: 'duplicates',
-            aliases: ['dupes'],
-            group: 'characters',
-            memberName: 'duplicates',
-            description: 'Views your duplicates.',
+            name: "duplicates",
+            aliases: ["dupes"],
+            group: "characters",
+            memberName: "duplicates",
+            description: "Views your duplicates.",
             examples: [
-                'dupes',
-                'duplicates @MikaStarrydust'
+                "dupes",
+                "duplicates @MikaStarrydust"
             ],
             args: [
                 {
-                    key: 'user',
-                    prompt: 'Whos list do you want to view?',
-                    type: 'user|integer',
-                    default: ''
+                    key: "user",
+                    prompt: "Whos list do you want to view?",
+                    type: "user|integer",
+                    default: ""
                 },
                 {
-                    key: 'page',
-                    prompt: 'Which page do you want to view?',
-                    type: 'integer',
-                    default: '1'
+                    key: "page",
+                    prompt: "Which page do you want to view?",
+                    type: "integer",
+                    default: "1"
                 }
             ]
         });

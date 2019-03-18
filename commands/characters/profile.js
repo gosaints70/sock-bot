@@ -1,28 +1,28 @@
-const Discord = require('discord.js');
+const Discord = require("discord.js");
 const client = new Discord.Client();
-const { Command } = require('discord.js-commando');
-var fs = require('fs');
+const { Command } = require("discord.js-commando");
+var fs = require("fs");
 
 module.exports = class ProfileCommand extends Command {
     constructor(client) {
         super(client, {
-            name: 'profile',
-            group: 'characters',
-            memberName: 'profile',
-            description: 'Shows the profile of the specified user.',
-            examples: ['profile @MikaStarrydust'],
+            name: "profile",
+            group: "characters",
+            memberName: "profile",
+            description: "Shows the profile of the specified user.",
+            examples: ["profile @MikaStarrydust"],
             args: [
                 {
-                    key: 'member',
-                    prompt: 'Whose profile would you like to view?',
-                    type: 'member',
-                    default: 'noinput'
+                    key: "member",
+                    prompt: "Whose profile would you like to view?",
+                    type: "member",
+                    default: "noinput"
                 },
                 {
-                    key: 'character',
-                    prompt: 'Which characters profile would you like to view? (optional)',
-                    type: 'string',
-                    default: 'noinput'
+                    key: "character",
+                    prompt: "Which characters profile would you like to view? (optional)",
+                    type: "string",
+                    default: "noinput"
                 }
             ]
         });

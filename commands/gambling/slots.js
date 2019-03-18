@@ -1,21 +1,21 @@
-const Discord = require('discord.js');
+const Discord = require("discord.js");
 const {
     Command
-} = require('discord.js-commando');
-var fs = require('fs');
+} = require("discord.js-commando");
+var fs = require("fs");
 
 module.exports = class SlotsCommand extends Command {
     constructor(client) {
         super(client, {
-            name: 'slots',
-            group: 'gambling',
-            memberName: 'slots',
-            description: 'Rolls a slot machine.',
-            examples: ['slots 100'],
+            name: "slots",
+            group: "gambling",
+            memberName: "slots",
+            description: "Rolls a slot machine.",
+            examples: ["slots 100"],
             args: [{
-                key: 'amount',
-                prompt: 'How much will you bet?',
-                type: 'integer',
+                key: "amount",
+                prompt: "How much will you bet?",
+                type: "integer",
                 min: 1
             }]
         });
@@ -51,7 +51,7 @@ module.exports = class SlotsCommand extends Command {
                 fieldValue += "You now have ``" + creditsJson[i].credits + "`` credits."; 
             }
         }
-        fs.writeFileSync(require.resolve('../../credits.json'), JSON.stringify(creditsJson));
+        fs.writeFileSync(require.resolve("../../credits.json"), JSON.stringify(creditsJson));
 
         var desc = objectsChosen.join(" ");
 

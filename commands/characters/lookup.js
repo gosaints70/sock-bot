@@ -1,24 +1,24 @@
-const { Command } = require('discord.js-commando');
-var fs = require('fs');
-var fuzzy = require('fuzzyset.js');
+const { Command } = require("discord.js-commando");
+var fs = require("fs");
+var fuzzy = require("fuzzyset.js");
 
 module.exports = class LookupCommand extends Command {
     constructor(client) {
         super(client, {
-            name: 'lookup',
-            aliases: ['lookup'],
-            group: 'characters',
-            memberName: 'lookup',
-            description: 'Views characters that fit your criteria.',
+            name: "lookup",
+            aliases: ["lookup"],
+            group: "characters",
+            memberName: "lookup",
+            description: "Views characters that fit your criteria.",
             examples: [
-                'lookup Glarix'
+                "lookup Glarix"
             ],
             args: [
                 {
-                    key: 'name',
-                    prompt: 'Who do you want to search for?',
-                    type: 'string',
-                    default: ''
+                    key: "name",
+                    prompt: "Who do you want to search for?",
+                    type: "string",
+                    default: ""
                 }
             ]
         });

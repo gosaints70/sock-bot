@@ -1,6 +1,6 @@
-const { Command } = require('discord.js-commando');
-var moment = require('moment-timezone');
-var fs = require('fs');
+const { Command } = require("discord.js-commando");
+var moment = require("moment-timezone");
+var fs = require("fs");
 var dailyAmount = 100;
 
 moment.tz("America/Chicago").format();
@@ -8,11 +8,11 @@ moment.tz("America/Chicago").format();
 module.exports = class DailyCommand extends Command {
     constructor(client) {
         super(client, {
-            name: 'daily',
-            group: 'economy',
-            memberName: 'daily',
-            description: 'Gives you your daily credits.',
-            examples: ['daily']
+            name: "daily",
+            group: "economy",
+            memberName: "daily",
+            description: "Gives you your daily credits.",
+            examples: ["daily"]
         });
     }
 
@@ -21,10 +21,10 @@ module.exports = class DailyCommand extends Command {
         var user = msg.author;
         for (var i = 0; i < creditsJson.length; i++) {
             if (creditsJson[i].id == user.id) {
-                if (creditsJson[i].nextDaily != moment.tz("America/Chicago").format('L')) {
+                if (creditsJson[i].nextDaily != moment.tz("America/Chicago").format("L")) {
                     creditsJson[i].credits += dailyAmount;
-                    creditsJson[i].nextDaily = moment.tz("America/Chicago").format('L');
-                    fs.writeFileSync(require.resolve('../../credits.json'), JSON.stringify(creditsJson));
+                    creditsJson[i].nextDaily = moment.tz("America/Chicago").format("L");
+                    fs.writeFileSync(require.resolve("../../credits.json"), JSON.stringify(creditsJson));
                     return msg.say({
                         embed:{
                             color: 7419530,

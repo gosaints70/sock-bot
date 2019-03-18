@@ -1,8 +1,8 @@
-const Discord = require('discord.js');
+const Discord = require("discord.js");
 const {
     Command
-} = require('discord.js-commando');
-var fs = require('fs');
+} = require("discord.js-commando");
+var fs = require("fs");
 
 var messages = [];
 var requestTimeouts = [];
@@ -11,28 +11,28 @@ var tradeTimeouts = [];
 module.exports = class TradeCommand extends Command {
     constructor(client) {
         super(client, {
-            name: 'trade',
-            aliases: ['t'],
-            group: 'characters',
-            memberName: 'trade',
-            description: 'All of the trade commands wrapped into one.',
+            name: "trade",
+            aliases: ["t"],
+            group: "characters",
+            memberName: "trade",
+            description: "All of the trade commands wrapped into one.",
             examples: [
-                'trade',
-                'trade start MikaStarrydust',
-                'trade accept senpaiviolet',
-                'trade confirm'
+                "trade",
+                "trade start MikaStarrydust",
+                "trade accept senpaiviolet",
+                "trade confirm"
             ],
             args: [{
-                    key: 'command',
-                    prompt: 'What function do you want to execute?',
-                    type: 'string',
-                    default: ''
+                    key: "command",
+                    prompt: "What function do you want to execute?",
+                    type: "string",
+                    default: ""
                 },
                 {
-                    key: 'name',
-                    prompt: 'Who do you want to trade with?/Who do you want to add or remove to the trade?',
-                    type: 'integer|user',
-                    default: ''
+                    key: "name",
+                    prompt: "Who do you want to trade with?/Who do you want to add or remove to the trade?",
+                    type: "integer|user",
+                    default: ""
                 }
             ]
         });
@@ -145,13 +145,13 @@ function startTrade(msg, args) {
             "recipientAccepted": false
         });
 
-        fs.writeFileSync(require.resolve('../../trades.json'), JSON.stringify(tradesJson));
+        fs.writeFileSync(require.resolve("../../trades.json"), JSON.stringify(tradesJson));
 
         let timeoutID = setTimeout(function() {
             var updatedTrades = readJson("../../trades.json");
             updatedTrades.splice(tradesJson.findIndex(f => f.recipient == args.name.id && f.starter == msg.author.id), 1);
             msg.say("Sorry <@" + msg.author.id + ">, your trade request has expired.");
-            fs.writeFileSync(require.resolve('../../trades.json'), JSON.stringify(updatedTrades));
+            fs.writeFileSync(require.resolve("../../trades.json"), JSON.stringify(updatedTrades));
         }, 30000)
 
         ///String.Format fix it
@@ -203,13 +203,13 @@ function acceptTrade(msg, args) {
         var updatedTrades = readJson("../../trades.json");
         var tradeIndex = tradesJson.findIndex(f => f.starter == tradesJson[user.currentTrade].starter && f.recipient == msg.author.id);
         updatedTrades.splice(tradeIndex, 1);
-        fs.writeFileSync(require.resolve('../../trades.json'), JSON.stringify(updatedTrades));
+        fs.writeFileSync(require.resolve("../../trades.json"), JSON.stringify(updatedTrades));
         msg.say("Sorry <@" + tradesJson[tradeIndex].starter + ">, your trade with <@" + tradesJson[tradeIndex].recipient + "> has expired.");
         messages.splice(tradeIndex, 1);
         for (var i = 0; i < creditsJson.length; i++) {
             if (creditsJson[i].currentTrade != -1 && creditsJson[i].currentTrade >= tradeIndex) {
                 creditsJson[i].currentTrade--;
-                fs.writeFileSync(require.resolve('../../credits.json'), JSON.stringify(creditsJson));
+                fs.writeFileSync(require.resolve("../../credits.json"), JSON.stringify(creditsJson));
             }
         }
     }, 90000);
@@ -227,8 +227,8 @@ function acceptTrade(msg, args) {
             timeout: timeoutID
     }));;
 
-    fs.writeFileSync(require.resolve('../../trades.json'), JSON.stringify(tradesJson));
-    fs.writeFileSync(require.resolve('../../credits.json'), JSON.stringify(creditsJson));
+    fs.writeFileSync(require.resolve("../../trades.json"), JSON.stringify(tradesJson));
+    fs.writeFileSync(require.resolve("../../credits.json"), JSON.stringify(creditsJson));
 }
 
 function addToTrade(msg, args) {
@@ -259,7 +259,7 @@ function addToTrade(msg, args) {
         }
     }
 
-    fs.writeFileSync(require.resolve('../../trades.json'), JSON.stringify(tradesJson));
+    fs.writeFileSync(require.resolve("../../trades.json"), JSON.stringify(tradesJson));
 
     var tradeInfo = [];
 
@@ -320,7 +320,7 @@ function removeFromTrade(msg, args) {
         }
     }
 
-    fs.writeFileSync(require.resolve('../../trades.json'), JSON.stringify(tradesJson));
+    fs.writeFileSync(require.resolve("../../trades.json"), JSON.stringify(tradesJson));
 }
 
 function confirmTrade(msg, args) {
@@ -430,13 +430,13 @@ function confirmTrade(msg, args) {
         for (var i = 0; i < creditsJson.length; i++) {
             if (creditsJson[i].currentTrade != -1 && creditsJson[i].currentTrade > tradeIndex) {
                 creditsJson[i].currentTrade--;
-                fs.writeFileSync(require.resolve('../../trades.json'), JSON.stringify(tradesJson));
+                fs.writeFileSync(require.resolve("../../trades.json"), JSON.stringify(tradesJson));
             }
         }
     }
 
-    fs.writeFileSync(require.resolve('../../trades.json'), JSON.stringify(tradesJson));
-    fs.writeFileSync(require.resolve('../../credits.json'), JSON.stringify(creditsJson));
+    fs.writeFileSync(require.resolve("../../trades.json"), JSON.stringify(tradesJson));
+    fs.writeFileSync(require.resolve("../../credits.json"), JSON.stringify(creditsJson));
 }
 
 function isNumeric(num){

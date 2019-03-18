@@ -1,19 +1,19 @@
 const {
     Command
-} = require('discord.js-commando');
-var moment = require('moment-timezone');
-var fs = require('fs');
+} = require("discord.js-commando");
+var moment = require("moment-timezone");
+var fs = require("fs");
 
 moment.tz("America/Chicago").format();
 
 module.exports = class DailyGachaCommand extends Command {
     constructor(client) {
         super(client, {
-            name: 'dailygacha',
-            group: 'characters',
-            memberName: 'dailygacha',
-            description: 'Rolls your daily gacha.',
-            examples: ['dailygacha']
+            name: "dailygacha",
+            group: "characters",
+            memberName: "dailygacha",
+            description: "Rolls your daily gacha.",
+            examples: ["dailygacha"]
         });
     }
 
@@ -24,9 +24,9 @@ module.exports = class DailyGachaCommand extends Command {
         var rarity;
         for (var i = 0; i < creditsJson.length; i++) {
             if (creditsJson[i].id == user.id) {
-                if (creditsJson[i].lastGacha != moment.tz("America/Chicago").format('L')) {
-                    creditsJson[i].lastGacha = moment.tz("America/Chicago").format('L');
-                    fs.writeFileSync(require.resolve('../../credits.json'), JSON.stringify(creditsJson));
+                if (creditsJson[i].lastGacha != moment.tz("America/Chicago").format("L")) {
+                    creditsJson[i].lastGacha = moment.tz("America/Chicago").format("L");
+                    fs.writeFileSync(require.resolve("../../credits.json"), JSON.stringify(creditsJson));
                     msg.channel.send({
                         embed: {
                             author: {
@@ -104,7 +104,7 @@ module.exports = class DailyGachaCommand extends Command {
                                     }
                                 }
                             }
-                            fs.writeFileSync(require.resolve('../../credits.json'), JSON.stringify(creditsJson));
+                            fs.writeFileSync(require.resolve("../../credits.json"), JSON.stringify(creditsJson));
                             message.edit({
                                 embed: {
                                     author: {

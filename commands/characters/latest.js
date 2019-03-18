@@ -1,13 +1,13 @@
-const { Command } = require('discord.js-commando');
-var fs = require('fs');
+const { Command } = require("discord.js-commando");
+var fs = require("fs");
 
 module.exports = class LatestCommand extends Command {
     constructor(client) {
         super(client, {
-            name: 'latest',
-            group: 'characters',
-            memberName: 'latest',
-            description: 'Views your latest character.'
+            name: "latest",
+            group: "characters",
+            memberName: "latest",
+            description: "Views your latest character."
         });
     }
 

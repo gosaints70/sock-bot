@@ -1,20 +1,20 @@
-const { Command } = require('discord.js-commando');
-var fs = require('fs');
+const { Command } = require("discord.js-commando");
+var fs = require("fs");
 
 module.exports = class CreditsCommand extends Command {
     constructor(client) {
         super(client, {
-            name: 'credits',
-            group: 'economy',
-            memberName: 'credits',
-            description: 'Shows the amount of credits you currently have.',
-            examples: ['credits'],
+            name: "credits",
+            group: "economy",
+            memberName: "credits",
+            description: "Shows the amount of credits you currently have.",
+            examples: ["credits"],
             args: [
                 {
-                    key: 'member',
-                    prompt: 'Whose balance would you like to see?',
-                    type: 'member',
-                    default: 'noinput'
+                    key: "member",
+                    prompt: "Whose balance would you like to see?",
+                    type: "member",
+                    default: "noinput"
                 }
             ]
         });
@@ -43,7 +43,7 @@ module.exports = class CreditsCommand extends Command {
                 "credits": 0,
                 "nextDaily": 0
             });
-            fs.writeFileSync(require.resolve('../../credits.json'), JSON.stringify(creditsJson));
+            fs.writeFileSync(require.resolve("../../credits.json"), JSON.stringify(creditsJson));
         }
         creditsJson = readJson("../../credits.json");
         var currentCredits = -1;

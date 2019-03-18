@@ -1,19 +1,19 @@
-const { Command } = require('discord.js-commando');
-var fs = require('fs');
+const { Command } = require("discord.js-commando");
+var fs = require("fs");
 
 module.exports = class ClaimCharacterCommand extends Command {
     constructor(client) {
         super(client, {
-            name: 'claim',
-            group: 'characters',
-            memberName: 'claim',
-            description: 'Tries to claim a character.',
-            examples: ['claim The Chad'],
+            name: "claim",
+            group: "characters",
+            memberName: "claim",
+            description: "Tries to claim a character.",
+            examples: ["claim The Chad"],
             args: [
                 {
-                    key: 'name',
-                    prompt: 'Whats this characters name?',
-                    type: 'string'
+                    key: "name",
+                    prompt: "Whats this characters name?",
+                    type: "string"
                 }
             ]
         });
@@ -46,7 +46,7 @@ module.exports = class ClaimCharacterCommand extends Command {
                         "affection": 0,
                         "lastInteract": ""
                     });
-                    fs.writeFileSync(require.resolve('../../credits.json'), JSON.stringify(creditsJson));
+                    fs.writeFileSync(require.resolve("../../credits.json"), JSON.stringify(creditsJson));
                 }
             }
     

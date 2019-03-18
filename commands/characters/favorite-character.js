@@ -1,20 +1,20 @@
-const { Command } = require('discord.js-commando');
-var fs = require('fs');
+const { Command } = require("discord.js-commando");
+var fs = require("fs");
 
 module.exports = class FavoriteCharacterCommand extends Command {
     constructor(client) {
         super(client, {
-            name: 'favorite',
-            aliases: ['favourite'],
-            group: 'characters',
-            memberName: 'favorite',
-            description: 'Favorite a character.',
-            examples: ['favorite The Chad'],
+            name: "favorite",
+            aliases: ["favourite"],
+            group: "characters",
+            memberName: "favorite",
+            description: "Favorite a character.",
+            examples: ["favorite The Chad"],
             args: [
                 {
-                    key: 'name',
-                    prompt: 'Who is your favorite character?',
-                    type: 'string'
+                    key: "name",
+                    prompt: "Who is your favorite character?",
+                    type: "string"
                 }
             ]
         });
@@ -30,7 +30,7 @@ module.exports = class FavoriteCharacterCommand extends Command {
             for (var i = 0; i < creditsJson.length; i++) {
                 if (creditsJson[i].id == user.id) {
                     creditsJson[i].favoriteCharacter = charactersJson.findIndex(f => f.name.toLowerCase() == args.name.toLowerCase());
-                    fs.writeFileSync(require.resolve('../../credits.json'), JSON.stringify(creditsJson));
+                    fs.writeFileSync(require.resolve("../../credits.json"), JSON.stringify(creditsJson));
                     return msg.say("Your favorite character has been set to " + charactersJson[creditsJson[i].favoriteCharacter].name);
 
                 }

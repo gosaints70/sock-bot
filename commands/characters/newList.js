@@ -1,47 +1,47 @@
-const { Command } = require('discord.js-commando');
-var fs = require('fs');
+const { Command } = require("discord.js-commando");
+var fs = require("fs");
 
 module.exports = class ListCommand extends Command {
     constructor(client) {
         super(client, {
-            name: 'list',
-            group: 'characters',
-            memberName: 'list',
-            description: 'Views your list.',
+            name: "list",
+            group: "characters",
+            memberName: "list",
+            description: "Views your list.",
             examples: [
-                'list',
-                'list -user @MikaStarrydust -wishlist @Goob'
+                "list",
+                "list -user @MikaStarrydust -wishlist @Goob"
             ],
             args: [
                 {
-                    key: 'argument1',
-                    prompt: 'Whats your first argument?',
-                    type: 'string',
-                    default: ''
+                    key: "argument1",
+                    prompt: "Whats your first argument?",
+                    type: "string",
+                    default: ""
                 },
                 {
-                    key: 'value1',
-                    prompt: 'Whats the value of your first arguments?',
-                    type: 'user|string',
-                    default: ''
+                    key: "value1",
+                    prompt: "Whats the value of your first arguments?",
+                    type: "user|string",
+                    default: ""
                 },
                 {
-                    key: 'argument2',
-                    prompt: 'Whats your second argument?',
-                    type: 'string',
-                    default: ''
+                    key: "argument2",
+                    prompt: "Whats your second argument?",
+                    type: "string",
+                    default: ""
                 },
                 {
-                    key: 'value2',
-                    prompt: 'Whats the value of your second argument?',
-                    type: 'user|string',
-                    default: ''
+                    key: "value2",
+                    prompt: "Whats the value of your second argument?",
+                    type: "user|string",
+                    default: ""
                 },
                 {
-                    key: 'value3',
-                    prompt: 'Whats the value of your third argument?',
-                    type: 'string',
-                    default: ''
+                    key: "value3",
+                    prompt: "Whats the value of your third argument?",
+                    type: "string",
+                    default: ""
                 }
             ]
         });

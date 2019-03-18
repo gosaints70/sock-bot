@@ -1,26 +1,26 @@
-const Discord = require('discord.js');
+const Discord = require("discord.js");
 const {
     Command
-} = require('discord.js-commando');
-var fs = require('fs');
+} = require("discord.js-commando");
+var fs = require("fs");
 
 module.exports = class CoinFlipCommand extends Command {
     constructor(client) {
         super(client, {
-            name: 'flip',
-            group: 'gambling',
-            memberName: 'flip',
-            description: 'Flips a coin.',
-            examples: ['flip heads 50'],
+            name: "flip",
+            group: "gambling",
+            memberName: "flip",
+            description: "Flips a coin.",
+            examples: ["flip heads 50"],
             args: [{
-                key: 'amount',
-                prompt: 'How much will you bet?',
-                type: 'integer',
+                key: "amount",
+                prompt: "How much will you bet?",
+                type: "integer",
                 min: 1
             }, {
-                key: 'side',
-                prompt: 'Which side will you bet on?',
-                type: 'string',
+                key: "side",
+                prompt: "Which side will you bet on?",
+                type: "string",
                 validate: text => {
                     if (text.toLowerCase() == "heads" ||text.toLowerCase() == "tails") return true;
                     return "The side must be heads or tails."
@@ -57,7 +57,7 @@ module.exports = class CoinFlipCommand extends Command {
                 desc += "You now have ``" + creditsJson[i].credits + "`` credits."; 
             }
         }
-        fs.writeFileSync(require.resolve('../../credits.json'), JSON.stringify(creditsJson));
+        fs.writeFileSync(require.resolve("../../credits.json"), JSON.stringify(creditsJson));
 
         msg.client.channels.find("id", "533085381894078484").send({
             embed: {

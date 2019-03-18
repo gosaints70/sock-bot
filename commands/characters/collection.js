@@ -1,34 +1,34 @@
-const { Command } = require('discord.js-commando');
-var fs = require('fs');
+const { Command } = require("discord.js-commando");
+var fs = require("fs");
 
 module.exports = class CollectionCommand extends Command {
     constructor(client) {
         super(client, {
-            name: 'collection',
-            aliases: ['completion'],
-            group: 'characters',
-            memberName: 'collection',
-            description: 'View how far you are towards completing a collection.',
+            name: "collection",
+            aliases: ["completion"],
+            group: "characters",
+            memberName: "collection",
+            description: "View how far you are towards completing a collection.",
             examples: [
-                'collection rare'
+                "collection rare"
             ],
             args: [
                 {
-                    key: 'name',
-                    prompt: 'Which collection do you want to view?',
-                    type: 'string'
+                    key: "name",
+                    prompt: "Which collection do you want to view?",
+                    type: "string"
                 },
                 {
-                    key: 'user',
-                    prompt: 'Whos collection do you want to view?',
-                    type: 'user|integer',
-                    default: '1'
+                    key: "user",
+                    prompt: "Whos collection do you want to view?",
+                    type: "user|integer",
+                    default: "1"
                 },
                 {
-                    key: 'page',
-                    prompt: 'Which page do you want to view?',
-                    type: 'integer',
-                    default: '1'
+                    key: "page",
+                    prompt: "Which page do you want to view?",
+                    type: "integer",
+                    default: "1"
                 }
             ]
         });

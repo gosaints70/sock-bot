@@ -1,21 +1,21 @@
 const {
     Command
-} = require('discord.js-commando');
-var moment = require('moment-timezone');
-var fs = require('fs');
+} = require("discord.js-commando");
+var moment = require("moment-timezone");
+var fs = require("fs");
 
 module.exports = class RetireCommand extends Command {
     constructor(client) {
         super(client, {
-            name: 'retire',
-            group: 'characters',
-            memberName: 'retire',
-            description: 'Retires a character.',
-            examples: ['retire 20'],
+            name: "retire",
+            group: "characters",
+            memberName: "retire",
+            description: "Retires a character.",
+            examples: ["retire 20"],
             args: [{
-                key: 'index',
-                prompt: 'What character do you want to send to work?',
-                type: 'integer'
+                key: "index",
+                prompt: "What character do you want to send to work?",
+                type: "integer"
             }]
         });
     }
@@ -40,7 +40,7 @@ module.exports = class RetireCommand extends Command {
                     return msg.say("You can't retire a character that isn't working!");
                 }
 
-                if (creditsJson[i].characters[args.index].workStart == moment.tz("America/Chicago").format('L')) {
+                if (creditsJson[i].characters[args.index].workStart == moment.tz("America/Chicago").format("L")) {
                     return msg.say("You can't claim this character's wages yet, wait until tomorrow.");
                 }
 
@@ -55,12 +55,12 @@ module.exports = class RetireCommand extends Command {
                     profits = Math.floor(Math.random() * 30) + rarityProfits[currentRarity];
 
                 creditsJson[i].characters[args.index].working = false;
-                creditsJson[i].characters[args.index].workCooldown = moment.tz("America/Chicago").format('L');
+                creditsJson[i].characters[args.index].workCooldown = moment.tz("America/Chicago").format("L");
                 creditsJson[i].credits += profits;
 
                 msg.say(charactersJson[creditsJson[i].characters[args.index].id].interactionName + " came back from work with " + profits + " credits in profits.");
 
-                fs.writeFileSync(require.resolve('../../credits.json'), JSON.stringify(creditsJson));
+                fs.writeFileSync(require.resolve("../../credits.json"), JSON.stringify(creditsJson));
             }
         }
     }
