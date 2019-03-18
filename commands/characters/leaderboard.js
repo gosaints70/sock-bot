@@ -3,26 +3,6 @@ const {
 } = require("discord.js-commando");
 var fs = require("fs");
 
-function sort(originalArray) {
-
-    // If array is empty or consists of one element then return this array since it is sorted.
-    if (originalArray.length <= 1) {
-        return originalArray;
-    }
-
-    // Split array on two halves.
-    const middleIndex = Math.floor(originalArray.length / 2);
-    const leftArray = originalArray.slice(0, middleIndex);
-    const rightArray = originalArray.slice(middleIndex, originalArray.length);
-
-    // Sort two halves of split array
-    const leftSortedArray = sort(leftArray);
-    const rightSortedArray = sort(rightArray);
-
-    // Merge two sorted arrays into one.
-    return mergeSortedArrays(leftSortedArray, rightSortedArray);
-}
-
 function mergeSortedArrays(leftArray, rightArray) {
     let sortedArray = [];
 
@@ -55,6 +35,26 @@ function mergeSortedArrays(leftArray, rightArray) {
     }
 
     return sortedArray;
+}
+
+function sort(originalArray) {
+
+    // If array is empty or consists of one element then return this array since it is sorted.
+    if (originalArray.length <= 1) {
+        return originalArray;
+    }
+
+    // Split array on two halves.
+    const middleIndex = Math.floor(originalArray.length / 2);
+    const leftArray = originalArray.slice(0, middleIndex);
+    const rightArray = originalArray.slice(middleIndex, originalArray.length);
+
+    // Sort two halves of split array
+    const leftSortedArray = sort(leftArray);
+    const rightSortedArray = sort(rightArray);
+
+    // Merge two sorted arrays into one.
+    return mergeSortedArrays(leftSortedArray, rightSortedArray);
 }
 
 var readJson = (path) => {

@@ -275,4 +275,4 @@ client.on("guildMemberAdd", member => {
   checkForNewMembers(member);
 });
 
-client.login("NTQwOTEyNjI2NTk5NzIzMDI4.DzX_vw.MxFh0-Qa0srmaDmt1wS6YXvWmeg");
+client.login("Whoever stole this, go fuck yourself.");
